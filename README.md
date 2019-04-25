@@ -1,6 +1,6 @@
 # Poketto Website
 
-Landing page for the [Poketto](https://poketto.cash)
+Landing page for [Poketto](https://poketto.cash)
 
 ## Deploy
 
