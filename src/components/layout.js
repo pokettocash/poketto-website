@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
-import 'tachyons/css/tachyons.min.css'
+import 'tachyons/css/tachyons.css'
 import '../type/fonts.css'
 import styled from 'styled-components'
 
@@ -33,7 +33,7 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"></link>
         <Background>
           {children}
         </Background>

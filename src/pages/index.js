@@ -1,8 +1,8 @@
 import React from 'react'
+import Anime from 'react-anime';
 
-import 'tachyons/css/tachyons.min.css'
+import 'tachyons/css/tachyons.css'
 import styled from 'styled-components'
-import { Animated } from "react-animated-css";
 
 import Layout from '../components/layout'
 import Image from '../components/image'
@@ -18,49 +18,51 @@ const IndexPage = () => (
       <div class="flex items-center">
         <div class="w-50">
           <PhoneBackground>
-            <div class="w-60 mw6">
-              <Animated animationIn="fadeInUp">
+            <Anime
+            opacity={[0, 1]}
+            translateX={'1em'}
+            easing={'easeInCubic'}
+            delay={(e, i) => i * 1000}>
+              <div class="w-60 mw6">
                 <Image />
-              </Animated>
-            </div>
+              </div>
+            </Anime>
           </PhoneBackground>
         </div>
         <div class="w-50 v-mid ph5">
-          <Animated animationIn="fadeIn">
-            <div class="flex">
-              <div class="">
-                <LogoText />
-              </div>
-              <div class="ml3">
-                <AppIcon />
-              </div>
+          <div class="flex">
+            <div class="">
+              <LogoText />
             </div>
-            <div class="mw8">
-              <p class="mt4 mw6 f5 lh-copy gt-walsheim">Poketto is a xDai pocket wallet for your day-to-day transactions. The simplest, most secure and near instant way to send money to friends and pay for your every day items.</p>
-              <div class="flex-column">
-                <div class="flex">
-                  <div class="mt3 flex items-center justify-center link dim ph4 dib bg-lightest-blue ba bw1 br3 b--lightest-blue pointer w-75">
-                    <IosIcon />
-                    <p class="ml3 f5 gt-walsheim-medium">Test it now with Testflight</p>
-                  </div>
-                </div>
-                <div class="flex">
-                  <div class="mt3 flex items-center justify-center link dim ph4 dib bg-near-white ba bw1 br3 b--near-white pointer w-75">
-                    <XdaiIcon />
-                    <p class="ml3 f5 gt-walsheim-medium">Convert Ethereum to xDai</p>
-                  </div>
+            <div class="ml3">
+              <AppIcon />
+            </div>
+          </div>
+          <div class="mw8">
+            <p class="mt4 mw6 f5 lh-copy gt-walsheim">Poketto is a xDai pocket wallet for your day-to-day transactions. The simplest, most secure and near instant way to send money to friends and pay for your every day items.</p>
+            <div class="flex-column">
+              <div class="flex">
+                <div class="mt3 flex items-center justify-center link dim ph4 dib bg-lightest-blue ba bw1 br3 b--lightest-blue pointer w-75">
+                  <IosIcon />
+                  <p class="ml3 f5 gt-walsheim-medium">Test it now with Testflight</p>
                 </div>
               </div>
-              <div class="mt3 pt4 pt3 flex justify-start o-90">
-                <p class="mr3 f5 no-underline underline-hover hover-orange link pointer gt-walsheim">Twitter</p>
-                <p class="mr3 f5 no-underline underline-hover hover-orange link pointer gt-walsheim">Discord</p>
-                <p class="f5 no-underline underline-hover hover-orange link pointer gt-walsheim">Github</p>
-              </div>
-              <div class="mt2">
-                <p class="f5 o-90 gt-walsheim">Contribute at <a href="https://www.donesunday.com/" target="_blank" rel="noopener noreferrer" class="link gold hover-orange pointer gt-walsheim-medium">Done Sunday 🌞</a></p>
+              <div class="flex">
+                <div class="mt3 flex items-center justify-center link dim ph4 dib bg-near-white ba bw1 br3 b--near-white pointer w-75">
+                  <XdaiIcon />
+                  <p class="ml3 f5 gt-walsheim-medium">Convert Ethereum to xDai</p>
+                </div>
               </div>
             </div>
-          </Animated>
+            <div class="mt3 pt4 pt3 flex justify-start o-90">
+              <p class="mr3 f5 no-underline underline-hover hover-orange link pointer gt-walsheim">Twitter</p>
+              <p class="mr3 f5 no-underline underline-hover hover-orange link pointer gt-walsheim">Discord</p>
+              <p class="f5 no-underline underline-hover hover-orange link pointer gt-walsheim">Github</p>
+            </div>
+            <div class="mt2">
+              <p class="f5 o-90 gt-walsheim">Contribute at <a href="https://www.donesunday.com/" target="_blank" rel="noopener noreferrer" class="link gold hover-orange pointer gt-walsheim-medium">Done Sunday <span>🌞</span></a></p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
