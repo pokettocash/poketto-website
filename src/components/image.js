@@ -19,7 +19,7 @@ const Image = () => (
       query {
         placeholderImage: file(relativePath: { eq: "iphone-main.png" }) {
           childImageSharp {
-            fluid(maxWidth: 800) {
+            fluid(maxWidth: 1600) {
               ...GatsbyImageSharpFluid_noBase64
             }
           }

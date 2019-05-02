@@ -23,7 +23,7 @@ const IndexPage = () => (
             translateX={'3em'}
             easing={'easeInCubic'}
             delay={(e, i) => i * 1000}>
-              <div class="w-60 mw6 nl5">
+              <div class="w-60 mw7 ph3 nl5">
                 <Image />
               </div>
             </Anime>
@@ -45,11 +45,11 @@ const IndexPage = () => (
           <div class="mw7 flex flex-column items-center-s items-center-m items-start-l">
             <p class="mt4 mw0 mw6-ns f6 f5-ns lh-copy gt-walsheim">Poketto is a xDai pocket wallet for your day-to-day transactions. The simplest, most secure and near instant way to send money to friends and pay for your every day items.</p>
             <div class="flex-column">
-              <a href="https://testflight.com" target="_blank" rel="noopener noreferrer" class="black no-underline">
+              <a href="https://testflight.apple.com/join/DTj4abRB" target="_blank" rel="noopener noreferrer" class="black no-underline">
               <div class="flex">
-                    <div class="mt3 flex items-center justify-center link dim ph4 dib bg-lightest-blue ba bw1 br3 b--lightest-blue pointer w-100">
-                  <IosIcon />
-                  <p class="ml3 f5 black no-underline gt-walsheim-medium">Test it now with Testflight</p>
+                  <div class="mt3 flex items-center justify-center link dim ph4 dib bg-lightest-blue ba bw1 br3 b--lightest-blue pointer w-100">
+                    <IosIcon />
+                  <p class="ml3 f5 black no-underline gt-walsheim-medium">Test it now via Testflight</p>
                 </div>
               </div>
               </a>
@@ -78,10 +78,10 @@ const IndexPage = () => (
         <PhoneBackground>
           <Anime
             opacity={[0, 1]}
-            translateY={'-2em'}
+            translateY={'-0.5em'}
             easing={'easeInCubic'}
             delay={(e, i) => i * 1000}>
-            <div class="w-100 mw6 center nb5">
+            <div class="w-100 w-60-m mw7 pt2 ph2 center">
               <Image />
             </div>
           </Anime>
@@ -92,7 +92,7 @@ const IndexPage = () => (
 )
 
 const PhoneBackground = styled.main.attrs({
-  className: 'vh-100 w-100 flex items-center justify-center',
+  className: 'vh-0 vh-100-l h-100 w-100 flex items-center justify-center',
 })`
   background: linear-gradient(to bottom left, rgba(240,170,139,1), rgba(255,208,52,0));
   background-repeat: no-repeat;
