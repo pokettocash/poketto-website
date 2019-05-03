@@ -43,7 +43,7 @@ const IndexPage = () => (
             </div>
           </div>
           <div class="mw7 flex flex-column items-center-s items-center-m items-start-l">
-            <p class="mt4 mw0 mw6-ns f6 f5-ns lh-copy gt-walsheim">Poketto is a xDai pocket wallet for your day-to-day transactions. The simplest, most secure and near instant way to send money to friends and pay for your every day items.</p>
+            <p class="mt4 mw0 mw6-ns f6 f5-ns lh-copy gt-walsheim">Poketto is a xDai pocket wallet for your day-to-day transactions. The simplest, most secure and near instant way to send money to friends and pay for your every day items. The project is open-source and open to contributors.</p>
             <div class="flex-column">
               <a href="https://testflight.apple.com/join/DTj4abRB" target="_blank" rel="noopener noreferrer" class="black no-underline">
               <div class="flex">
