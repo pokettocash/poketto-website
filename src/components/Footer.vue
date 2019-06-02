@@ -13,7 +13,7 @@
             title="Poketto Website"
           >
             <img
-              alt="Github Icon"
+              alt="Poketto Icon"
               class="w-8"
               src="@/assets/svg/poketto-icon.svg"
               >
