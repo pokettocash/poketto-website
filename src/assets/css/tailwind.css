@@ -4,3 +4,7 @@
 @import "./custom-components.css";
 
 @import "tailwindcss/utilities";
+
+.background--illustration {
+  background-color: #FFF4DE;
+}

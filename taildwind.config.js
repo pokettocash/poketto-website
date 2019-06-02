@@ -7,7 +7,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        change: "#9cdbff"
+        ignore: #ffffff
       }
     }
   },
