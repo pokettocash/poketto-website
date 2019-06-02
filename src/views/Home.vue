@@ -1,61 +1,82 @@
 <template>
   <div>
-    <div class="container mx-auto min-h-screen">
-      <Header />
-      <div class="my-10 mb-32 flex flex-col items-center">
-        <div class="mt-16 inline-flex flex-row flex-no-wrap items-center">
+    <Header />
+    <div class="container mx-auto flex min-h-screen">
+      <div class="flex">
+        <div class="inline-flex flex-row flex-no-wrap items-center">
           <div class="w-1/2 px-12 flex flex-col items-start">
-            <h1 class="">Poketto</h1>
-            <h2 class="">A payment wallet that your parents can easily use</h2>
-            <div class="">The simplest, most secure and near instant way to pay friends and your every day items.</div>
-            <button class="bg-red-600">lol</button>
-          </div>
-          <div class="w-1/2 max-w-xl px-16">
-            <img src="https://poketto.cash/static/f8de452fe07e33711ff4eb838017a699/a417a/iphone-main.png" alt="" />
-          </div>
+          <img alt="Poketto text" src="@/assets/svg/poketto-text.svg">
+          <h2 class="mt-8 text-4xl">A simple payment wallet that <br> you can also show your parents </h2>
+          <div class="mt-4 text-lg">The simplest, most secure and near instant way <br> to pay friends and your every day items.</div>
+          <a
+            class="mt-8"
+            href="https://poketto.cash"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="App store link"
+          >
+            <img
+              alt="App store badge"
+              class="w-40 cursor-pointer"
+              src="@/assets/svg/app-store.svg"
+              >
+          </a>
+        </div>
+        <div class="w-1/2 px-16">
+          <img src="@/assets/img/intro/iphone@2x.png" alt="" />
+        </div>
         </div>
       </div>
     </div>
-    <div class="flex bg-orange-100">
+    <div class="flex bg-gray-100">
       <div class="container mx-auto flex flex-col items-center mt-32 mb-32">
         <div class="w-5/6">
-          <img src="https://fiverr-res.cloudinary.com/image/upload/q_auto,f_auto/v1/secured-attachments/message/attachments/4e74dd9cb48fe941858939f885378d4e-1558975072163/poketto%20fiverr%20scene%202.jpg?__cld_token__=exp=1559410551~hmac=d1e4deab65535fea12e20d96210ceec55ffc6ae812cfe023642fd286bb99b219" alt="" />
+          <img src="@/assets/img/illustrations/everyone.png" alt="" />
         </div>
         <h1 class="mt-8 text-5xl">A wallet for everyone, everywhere</h1>
       </div>
     </div>
     <div class="flex">
-      <div class="flex flex-col items-center mt-32 mb-32">
+      <div class="flex flex-col flex-no-wrap items-center mt-32 mb-32">
         <h1 class="text-5xl">Let's be simple about it</h1>
         <p class="mt-2 text-center text-2xl">yadadadadayadadadadayadadadadayadadadadayadadadada
           yadadadadayadadadadayadadadadayadadadadayadadadada</p>
-        <div class="mt-12 flex flex-row">
-          <div class="max-w-xs">
-            <img src="https://poketto.cash/static/f8de452fe07e33711ff4eb838017a699/a417a/iphone-main.png" alt="" />
+        <div class="mt-12 max-w-5xl flex flex-row items-center justify-around">
+          <div class="max-w-xs mr-6">
+            <img src="@/assets/img/app/settings@2x.png" alt="" />
           </div>
-          <div class="max-w-xs">
-            <img src="https://poketto.cash/static/f8de452fe07e33711ff4eb838017a699/a417a/iphone-main.png" alt="" />
+          <div class="max-w-xs mr-4">
+            <img src="@/assets/img/app/request@2x.png" alt="" />
           </div>
-          <div class="max-w-xs">
-            <img src="https://poketto.cash/static/f8de452fe07e33711ff4eb838017a699/a417a/iphone-main.png" alt="" />
+          <div class="max-w-lg">
+            <img src="@/assets/img/intro/iphone-alt@3x.png" alt="" />
+          </div>
+          <div class="max-w-xs ml-4">
+            <img src="@/assets/img/app/pay@2x.png" alt="" />
+          </div>
+          <div class="max-w-xs ml-6">
+            <img src="@/assets/img/app/pay-amount@2x.png" alt="" />
           </div>
         </div>
       </div>
     </div>
-    <div class="flex bg-gray-200">
+    <div class="flex bg-gray-100">
       <div class="container mx-auto flex flex-col items-center mt-32 mb-32">
         <h1 class="text-5xl">Let's be simple about it</h1>
         <p class="mt-2 text-center text-2xl">yadadadadayadadadadayadadadadayadadadadayadadadada
           yadadadadayadadadadayadadadadayadadadadayadadadada</p>
         <div class="mt-12 flex flex-col">
           <div class="max-w-xs">
-            <img src="https://poketto.cash/static/f8de452fe07e33711ff4eb838017a699/a417a/iphone-main.png" alt="" />
+            <img src="@/assets/img/illustrations/instant_payments.png" alt="" />
           </div>
           <div class="max-w-xs">
-            <img src="https://poketto.cash/static/f8de452fe07e33711ff4eb838017a699/a417a/iphone-main.png" alt="" />
+            <img src="@/assets/img/illustrations/wallet_phone.png" alt="" />
           </div>
           <div class="max-w-xs">
-            <img src="https://poketto.cash/static/f8de452fe07e33711ff4eb838017a699/a417a/iphone-main.png" alt="" />
+            <img src="@/assets/img/illustrations/addresses_contacts.png" alt="" />
+          </div>
+          <div class="max-w-xs">
+            <img src="@/assets/img/illustrations/open_source.png" alt="" />
           </div>
         </div>
       </div>
@@ -69,18 +90,18 @@
             <div class="">The simplest, most secure and near instant way to pay friends and your every day items.</div>
             <button class="bg-red-600">lol</button>
           </div>
-          <div class="w-1/2 max-w-xl px-16">
-            <img src="https://fiverr-res.cloudinary.com/image/upload/q_auto,f_auto/v1/secured-attachments/message/attachments/f29e95157e21269fa3dceb3185b3ce21-1559386554226/poketto%20xdai%20fiverr%202%20.jpg?__cld_token__=exp=1559429153~hmac=83e4b0b8cd6a7b00a581b6cedee8fe47f8387630182caf6e1ae699926a3554db" alt="" />
+          <div class="w-1/2 max-w-5xl px-16">
+            <img src="@/assets/img/illustrations/xdai.png" alt="" />
           </div>
         </div>
       </div>
     </div>
-    <div class="flex bg-gray-200">
+    <div class="flex bg-gray-100">
       <div class="container mx-auto flex flex-col items-center mt-32 mb-32">
         <div class="w-5/6">
-          <img src="https://fiverr-res.cloudinary.com/image/upload/q_auto,f_auto/v1/secured-attachments/message/attachments/4e74dd9cb48fe941858939f885378d4e-1558975072173/poketto%20fiverr%20friends%202.jpg?__cld_token__=exp=1559429153~hmac=ebf826f47d73008241c3b8aba5ca4d42818d38faae6ebfe13367c48c2cef554b" alt="" />
+          <img src="@/assets/img/illustrations/done_sunday.png" alt="" />
         </div>
-        <h1 class="mt-8 text-5xl">A wallet for everyone, everywhere</h1>
+        <h1 class="mt-8 text-5xl">Enabling all to enjoy</h1>
       </div>
     </div>
     <Footer />
