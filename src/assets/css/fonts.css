@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400&display=swap');
 
 @font-face {
   font-family: 'GT Walsheim Regular';
@@ -30,24 +30,9 @@
     url('../fonts/gt-walsheim-bold-web.svg#svgGTWalsheim') format('svg');
 }
 
-.fira-extra {
-  font-family: "Fira", "Helvetica", sans-serif;
-  font-weight: 800;
-}
-
-.fira-bold {
-  font-family: "Fira", "Helvetica", sans-serif;
-  font-weight: 700;
-}
-
-.fira-medium {
-  font-family: "Fira", "Helvetica", sans-serif;
-  font-weight: 600;
-}
-
-.fira-regular {
-  font-family: "Fira", "Helvetica", sans-serif;
-  font-weight: 500;
+.open-sans-regular {
+  font-family: "Open Sans", "Helvetica", sans-serif;
+  font-weight: 400;
 }
 
 .gt-walsheim-bold {

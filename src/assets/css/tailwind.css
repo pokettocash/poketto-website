@@ -11,7 +11,7 @@
 }
 
 .background--alt {
-  background: linear-gradient(to bottom left, rgba(240,170,139,0.2), rgba(255,208,52,0));
+  background: linear-gradient(to bottom left, rgba(240,170,139,0.15), rgba(255,208,52,0));
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -19,3 +19,4 @@
 .background--illustration {
   background-color: #FFF5DE;
 }
+
