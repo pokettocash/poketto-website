@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,600,700,800&display=swap');
+
+@font-face {
+  font-family: 'GT Walsheim Regular';
+  font-weight: normal;
+  src: url('../fonts/gt-walsheim-regular-web.eot');
+  src: url('../fonts/gt-walsheim-regular-web.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gt-walsheim-regular-web.woff') format('woff'),
+    url('../fonts/gt-walsheim-regular-web.ttf')  format('truetype'),
+    url('../fonts/gt-walsheim-regular-web.svg#svgGTWalsheim') format('svg');
+}
+
+@font-face {
+  font-family: 'GT Walsheim Medium';
+  font-weight: medium;
+  src: url('../fonts/gt-walsheim-medium-web.eot');
+  src: url('../fonts/gt-walsheim-medium-web.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gt-walsheim-medium-web.woff') format('woff'),
+    url('../fonts/gt-walsheim-medium-web.ttf')  format('truetype'),
+    url('../fonts/gt-walsheim-medium-web.svg#svgGTWalsheim') format('svg');
+}
+
+@font-face {
+  font-family: 'GT Walsheim Bold';
+  font-weight: bold;
+  src: url('../fonts/gt-walsheim-bold-web.eot');
+  src: url('../fonts/gt-walsheim-bold-web.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gt-walsheim-bold-web.woff') format('woff'),
+    url('../fonts/gt-walsheim-bold-web.ttf')  format('truetype'),
+    url('../fonts/gt-walsheim-bold-web.svg#svgGTWalsheim') format('svg');
+}
+
+.fira-extra {
+  font-family: "Fira", "Helvetica", sans-serif;
+  font-weight: 800;
+}
+
+.fira-bold {
+  font-family: "Fira", "Helvetica", sans-serif;
+  font-weight: 700;
+}
+
+.fira-medium {
+  font-family: "Fira", "Helvetica", sans-serif;
+  font-weight: 600;
+}
+
+.fira-regular {
+  font-family: "Fira", "Helvetica", sans-serif;
+  font-weight: 500;
+}
+
+.gt-walsheim-bold {
+  font-family: "GT Walsheim Bold", "Helvetica", sans-serif;
+}
+
+.gt-walsheim-medium {
+  font-family: "GT Walsheim Medium", "Helvetica", sans-serif;
+}
+
+.gt-walsheim-regular {
+  font-family: "GT Walsheim Regular", "Helvetica", sans-serif;
+}
