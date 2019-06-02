@@ -6,8 +6,8 @@
         <div class="inline-flex flex-row flex-no-wrap items-center">
           <div class="w-1/2 px-12 flex flex-col items-start">
           <img alt="Poketto text" src="@/assets/svg/poketto-text.svg">
-          <h2 class="mt-8 text-4xl">A simple payment wallet that <br> you can also show your parents </h2>
-          <div class="mt-4 text-lg">The simplest, most secure and near instant way <br> to pay friends and your every day items.</div>
+          <h2 class="mt-8 text-3xl leading-tight">A payment wallet that you can <br> actually show your parents </h2>
+          <div class="mt-4 text-lg leading-snug">The simplest, most secure and near instant way <br> to pay friends and your every day items.</div>
           <a
             class="mt-8"
             href="https://poketto.cash"
@@ -37,33 +37,38 @@
       </div>
     </div>
     <div class="flex">
-      <div class="flex flex-col flex-no-wrap items-center mt-32 mb-32">
-        <h1 class="text-5xl">Let's be simple about it</h1>
-        <p class="mt-2 text-center text-2xl">yadadadadayadadadadayadadadadayadadadadayadadadada
-          yadadadadayadadadadayadadadadayadadadadayadadadada</p>
-        <div class="mt-12 max-w-5xl flex flex-row items-center justify-around">
-          <div class="max-w-xs mr-6">
-            <img src="@/assets/img/app/settings@2x.png" alt="" />
+      <div class="mx-auto flex flex-col flex-no-wrap items-center mt-32 mb-32">
+        <h1 class="text-5xl">Introducing your new wallet</h1>
+        <p class="mt-2 text-center text-2xl leading-snug">You shoudldn't have to read a manual to start using a payment wallet, <br> it should be as easy and simple as any other app you used before</p>
+        <div class="mt-12 max-w-7xl flex flex-row items-center justify-around -mx-10">
+          <div class="max-w-sm mr-6">
+            <img src="@/assets/img/app/settings@2x.png" />
           </div>
-          <div class="max-w-xs mr-4">
-            <img src="@/assets/img/app/request@2x.png" alt="" />
+          <div class="max-w-sm mr-6">
+            <img src="@/assets/img/app/request-qr@2x.png" />
           </div>
-          <div class="max-w-lg">
-            <img src="@/assets/img/intro/iphone-alt@3x.png" alt="" />
+          <div class="max-w-sm mr-4">
+            <img src="@/assets/img/app/request@2x.png" />
           </div>
-          <div class="max-w-xs ml-4">
-            <img src="@/assets/img/app/pay@2x.png" alt="" />
+          <div class="max-w-2xl">
+            <img src="@/assets/img/intro/iphone-alt@3x.png" />
           </div>
-          <div class="max-w-xs ml-6">
-            <img src="@/assets/img/app/pay-amount@2x.png" alt="" />
+          <div class="max-w-sm ml-4">
+            <img src="@/assets/img/app/pay@2x.png" />
+          </div>
+          <div class="max-w-sm ml-6">
+            <img src="@/assets/img/app/pay-amount@2x.png" />
+          </div>
+          <div class="max-w-sm ml-6">
+            <img src="@/assets/img/app/pay-confirm@2x.png" />
           </div>
         </div>
       </div>
     </div>
     <div class="flex bg-gray-100">
       <div class="container mx-auto flex flex-col items-center mt-32 mb-32">
-        <h1 class="text-5xl">Let's be simple about it</h1>
-        <p class="mt-2 text-center text-2xl">yadadadadayadadadadayadadadadayadadadadayadadadada
+        <h1 class="text-5xl">What you should know</h1>
+        <p class="mt-2 text-center text-2xl leading-snug">yadadadadayadadadadayadadadadayadadadadayadadadada
           yadadadadayadadadadayadadadadayadadadadayadadadada</p>
         <div class="mt-12 flex flex-col">
           <div class="max-w-xs">
