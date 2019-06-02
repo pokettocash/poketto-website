@@ -1,6 +1,6 @@
 <template>
-  <div class="pt-24 pb-16 bg-white p-8">
-    <div class="container mx-auto text-left opacity-75 text-sm lg:px-4">
+  <div class="pt-24 pb-16 bg-white p-8 background--alt">
+    <div class="container mx-auto text-left opacity-100 text-sm lg:px-4">
       <div
         class="flex flex-col justify-center items-start content-start md:flex-row mb-4"
       >
@@ -19,7 +19,7 @@
               >
           </a>
           <p
-            class="mt-32 text-left text-grey text-sm opacity-75 hidden md:block"
+            class="mt-32 text-left text-grey text-sm opacity-50 hidden md:block"
           >
             © Poketto Cash
           </p>
@@ -85,7 +85,7 @@
           <transition appear name="fade">
             <div class="mt-12 md:mt-4">
               <a
-                class="opacity-75 hover:fill-purple inline-block w-8 mr-4"
+                class="opacity-100 inline-block w-8 mr-4"
                 href="https://github.com/pokettocash"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -98,7 +98,7 @@
                   >
               </a>
               <a
-                class="opacity-75 hover:fill-purple inline-block w-8 mr-4"
+                class="opacity-100 inline-block w-8 mr-4"
                 href="https://twitter.com/pokettocash"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -111,7 +111,7 @@
                 />
               </a>
               <a
-              class="opacity-75 hover:fill-purple inline-block w-8 mr-4"
+              class="opacity-100 inline-block w-8 mr-4"
               href="https://discord.gg/kMTUpME"
               target="_blank"
               rel="noopener noreferrer"
@@ -123,7 +123,7 @@
                 src="@/assets/svg/logo-discord.svg">
               </a>
               <a
-                class="opacity-75 hover:fill-purple inline-block w-8 mr-4"
+                class="opacity-100 inline-block w-8 mr-4"
                 href="https://www.producthunt.com/"
                 target="_blank"
                 rel="noopener noreferrer"
