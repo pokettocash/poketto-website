@@ -6,9 +6,9 @@
         <div class="flex">
           <div class="inline-flex flex-row flex-no-wrap items-center">
             <div class="w-1/2 px-12 flex flex-col items-start">
-            <img alt="Poketto text" src="@/assets/svg/poketto-text.svg">
-            <h2 class="mt-8 text-3xl leading-tight">A payment wallet that you can <br> actually show your parents </h2>
-            <div class="mt-4 text-lg leading-snug">The simplest, most secure and near instant way <br> to pay friends and your every day items.</div>
+            <img class="w-64" src="@/assets/svg/poketto-text.svg">
+            <h2 class="mt-8 text-3xl gt-walsheim-medium leading-tight">A wallet that you can <br> actually show to your parents </h2>
+            <div class="mt-4 text-lg open-sans-regular leading-snug">The simplest, most secure and near instant way <br> to pay friends and your every day items.</div>
             <a
               class="mt-8"
               href="https://poketto.cash"
@@ -35,13 +35,13 @@
         <div class="w-5/6">
           <img src="@/assets/img/illustrations/everyone.png" />
         </div>
-        <h1 class="mt-8 text-5xl">A wallet for everyone, everywhere</h1>
+        <h1 class="mt-12 text-5xl gt-walsheim-medium">A wallet for everyone, everywhere</h1>
       </div>
     </div>
     <div class="flex background--alt">
       <div class="mx-auto flex flex-col flex-no-wrap items-center mt-32 mb-32">
-        <h1 class="text-5xl">Introducing your new wallet</h1>
-        <p class="mt-2 text-center text-2xl leading-snug">You shoudldn't have to read a manual to start using a payment wallet, <br> it should be as easy and simple as any other app you used before</p>
+        <h1 class="text-5xl gt-walsheim-medium leading-tight">Introducing your new wallet</h1>
+        <p class="mt-4 text-center text-xl open-sans-regular leading-snug">You shouldn't have to read a manual to start using a payment wallet, <br> it should be as easy and simple as any other app you used before</p>
         <div class="mt-12 max-w-7xl flex flex-row items-center justify-around -mx-10">
           <div class="max-w-sm mr-6">
             <img src="@/assets/img/app/settings@2x.png" />
@@ -69,8 +69,8 @@
     </div>
     <div class="flex">
       <div class="container mx-auto flex flex-col items-center mt-32 mb-40">
-        <h1 class="text-5xl">What you should know</h1>
-        <p class="mt-2 text-center text-2xl leading-snug">yadadadadayadadadadayadadadadayadadadadayadadadada
+        <h1 class="text-5xl gt-walsheim-medium leading-tight">What you should know</h1>
+        <p class="mt-4 text-center text-xl open-sans-regular leading-snug">yadadadadayadadadadayadadadadayadadadadayadadadada
           yadadadadayadadadadayadadadadayadadadadayadadadada</p>
         <div class="flex flex-col items-center">
           <div class="mt-32 flex flex-row items-center">
@@ -116,9 +116,8 @@
       <div class="container mx-auto flex flex-col items-center mt-32 mb-32">
         <div class="mt-16 inline-flex flex-row flex-no-wrap items-center">
           <div class="w-1/2 px-12 flex flex-col items-start">
-            <h1 class="">Poketto uses xDai</h1>
-            <h2 class="">A payment wallet that your parents can easily use</h2>
-            <div class="">The simplest, most secure and near instant way to pay friends and your every day items.</div>
+            <h1 class="text-5xl gt-walsheim-medium leading-tight">Poketto uses xDai</h1>
+            <div class="mt-4 text-xl open-sans-regular leading-snug">The simplest, most secure and near instant way to pay friends and your every day items.</div>
             <button class="bg-red-600">lol</button>
           </div>
           <div class="w-1/2 max-w-5xl px-16">
@@ -132,7 +131,8 @@
         <div class="w-5/6 background--illustration">
           <img src="@/assets/img/illustrations/done_sunday.png" alt="" />
         </div>
-        <h1 class="mt-8 text-5xl">Enabling all to enjoy</h1>
+        <h1 class="mt-8 text-5xl gt-walsheim-medium leading-tight">Enabling all to enjoy</h1>
+        <div class="mt-4 text-xl open-sans-regular leading-snug">The simplest, most secure and near instant way to pay friends and your every day items.</div>
       </div>
     </div>
     <Footer />
