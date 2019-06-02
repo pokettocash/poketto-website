@@ -1,4 +1,14 @@
-# poketto-website
+# Poketto Website
+
+Landing page for [Poketto](https://poketto.cash)
+
+## Deploy
+
+Hosted on Netlify (building automatically from master repository).
+
+## Development
+
+To run the site locally:
 
 ## Project setup
 ```
@@ -24,6 +34,3 @@ yarn run test
 ```
 yarn run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
