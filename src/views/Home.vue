@@ -41,7 +41,7 @@
     <div class="flex background--alt">
       <div class="mx-auto flex flex-col flex-no-wrap items-center mt-32 mb-32">
         <h1 class="text-5xl gt-walsheim-medium leading-tight">Introducing your new wallet</h1>
-        <p class="mt-4 text-center text-xl open-sans-regular leading-snug">You shouldn't have to read a manual to start using a payment wallet, <br> it should be as easy and simple as any other app you used before</p>
+        <p class="mt-4 text-center text-2xl open-sans-regular leading-snug">You shouldn't have to read a manual to start using a payment wallet, <br> it should be as easy and intuitive as any other app you used before.</p>
         <div class="mt-12 max-w-7xl flex flex-row items-center justify-around -mx-10">
           <div class="max-w-sm mr-6">
             <img src="@/assets/img/app/settings@2x.png" />
@@ -69,14 +69,13 @@
     </div>
     <div class="flex">
       <div class="container mx-auto flex flex-col items-center mt-32 mb-40">
-        <h1 class="text-5xl gt-walsheim-medium leading-tight">What you should know</h1>
-        <p class="mt-4 text-center text-xl open-sans-regular leading-snug">yadadadadayadadadadayadadadadayadadadadayadadadada
-          yadadadadayadadadadayadadadadayadadadadayadadadada</p>
+        <h1 class="text-5xl gt-walsheim-medium leading-tight">Why use this wallet?</h1>
+        <p class="mt-4 text-center text-2xl open-sans-regular leading-snug">We built our wallet with simplicity in mind from day one without <br> sacrificing any convenience that you need to use your money.</p>
         <div class="flex flex-col items-center">
           <div class="mt-32 flex flex-row items-center">
             <div class="flex flex-col max-w-sm pr-12">
-              <h2>Near instant payments</h2>
-              <p>The simplest, most secure and near instant way to pay friends and your every day items.</p>
+              <h2 class="text-3xl header-color gt-walsheim-medium">Near instant payments</h2>
+              <p class="mt-2 text-xl open-sans-regular">By using xDai you can transfer instantaneously with a ridiculous low transfer fee* to another wallet.</p>
             </div>
             <div class="w-64 background--illustration">
               <img src="@/assets/img/illustrations/instant_payments.png" alt="" />
@@ -84,8 +83,8 @@
           </div>
           <div class="mt-32 flex flex-row items-center">
             <div class="flex flex-col max-w-sm pr-12">
-              <h2>Wallet is on your phone</h2>
-              <p>The simplest, most secure and near instant way to pay friends and your every day items.</p>
+              <h2 class="text-3xl header-color gt-walsheim-medium">Wallet is on your phone</h2>
+              <p class="mt-2 text-xl open-sans-regular">All you need to get started is your phone. Our wallet generates the key and stores it in your phone.</p>
             </div>
             <div class="w-64 background--illustration">
               <img src="@/assets/img/illustrations/wallet_phone.png" alt="" />
@@ -93,8 +92,8 @@
           </div>
           <div class="mt-32 flex flex-row items-center">
             <div class="flex flex-col max-w-sm pr-12">
-              <h2>Your addresses as contacts</h2>
-              <p>The simplest, most secure and near instant way to pay friends and your every day items.</p>
+              <h2 class="text-3xl header-color gt-walsheim-medium">Addresses as contacts</h2>
+              <p class="mt-2 text-xl open-sans-regular">You can easily assign addresses to contacts using your wallet, making it easier to control payments.</p>
             </div>
             <div class="w-64 background--illustration">
               <img src="@/assets/img/illustrations/addresses_contacts.png" alt="" />
@@ -102,8 +101,8 @@
           </div>
           <div class="mt-32 flex flex-row items-center">
             <div class="flex flex-col max-w-sm pr-12">
-              <h2>Completly open source</h2>
-              <p>The simplest, most secure and near instant way to pay friends and your every day items.</p>
+              <h2 class="text-3xl header-color gt-walsheim-medium">Completly open source</h2>
+              <p class="mt-2 text-xl open-sans-regular">Our wallet code is avaiable for anyone to check or contribute to on Github. Help us build the future!</p>
             </div>
             <div class="w-64 background--illustration">
               <img src="@/assets/img/illustrations/open_source.png" alt="" />
@@ -118,7 +117,7 @@
           <div class="w-1/2 px-12 flex flex-col items-start">
             <h1 class="text-5xl gt-walsheim-medium leading-tight">Poketto uses xDai</h1>
             <div class="mt-4 text-xl open-sans-regular leading-snug">The simplest, most secure and near instant way to pay friends and your every day items.</div>
-            <button class="bg-red-600">lol</button>
+            <button class="mt-4 bg-red-600">lol</button>
           </div>
           <div class="w-1/2 max-w-5xl px-16">
             <img src="@/assets/img/illustrations/xdai.png" alt="" />
@@ -131,8 +130,8 @@
         <div class="w-5/6 background--illustration">
           <img src="@/assets/img/illustrations/done_sunday.png" alt="" />
         </div>
-        <h1 class="mt-8 text-5xl gt-walsheim-medium leading-tight">Enabling all to enjoy</h1>
-        <div class="mt-4 text-xl open-sans-regular leading-snug">The simplest, most secure and near instant way to pay friends and your every day items.</div>
+        <h1 class="mt-12 text-5xl gt-walsheim-medium leading-tight">Supported by a community</h1>
+        <p class="mt-4 text-center text-2xl open-sans-regular leading-snug">Poketto started as an idea within our Done Sunday community. <br> You can join our discord and be part of the discussion too!</p>
       </div>
     </div>
     <Footer />
