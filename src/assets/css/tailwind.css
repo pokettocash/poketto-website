@@ -18,6 +18,12 @@
   color: #60CCC3;
 }
 
+.poketto-colour {
+  background: linear-gradient(to bottom left, rgba(255,209,49,1), rgba(239,167,146,1));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .background {
   background-color: #FFEEE9;
 }
@@ -30,6 +36,17 @@
 
 .background--illustration {
   background-color: #FFF5DE;
+}
+
+.hover-button {
+  &:hover{
+    opacity: 0.8;
+    -webkit-transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out;
+    -ms-transition: opacity 0.25s ease-in-out;
+    -o-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
+  }
 }
 
 .hover-link {

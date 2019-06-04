@@ -12,7 +12,7 @@
             <div class="inline-flex flex-row">
               <button
                 class="mt-8"
-                href="https://poketto.cash"
+                href="https://testflight.apple.com/join/DTj4abRB"
                 target="_blank"
                 rel="noopener noreferrer"
               >
