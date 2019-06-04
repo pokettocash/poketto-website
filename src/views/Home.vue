@@ -11,7 +11,7 @@
             <div class="mt-4 text-lg open-sans-regular leading-snug">The simplest, most secure and near instant way <br> to pay friends and your every day items.</div>
             <div class="inline-flex flex-row">
               <a
-                class="mt-8 hover-link"
+                class="mt-8"
                 href="https://poketto.cash"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -45,14 +45,14 @@
         <div class="w-5/6">
           <img src="@/assets/img/illustrations/everyone.png" />
         </div>
-        <h1 class="mt-12 text-5xl gt-walsheim-medium">A wallet for everyone, everywhere</h1>
+        <h1 class="mt-16 text-5xl gt-walsheim-medium">A wallet for everyone, everywhere</h1>
       </div>
     </div>
     <div class="flex background--alt">
       <div class="mx-auto flex flex-col flex-no-wrap items-center mt-32 mb-32">
         <h1 class="text-5xl gt-walsheim-medium leading-tight">Introducing your new wallet</h1>
         <p class="mt-4 text-center text-2xl open-sans-regular leading-snug">You shouldn't have to read a manual to start using a payment wallet, <br> it should be as easy and intuitive as any other app you used before.</p>
-        <div class="mt-12 max-w-7xl flex flex-row items-center justify-around -mx-10">
+        <div class="mt-24 max-w-7xl flex flex-row items-center justify-around -mx-10">
           <div class="max-w-sm mr-6">
             <img src="@/assets/img/app/settings@2x.png" />
           </div>
@@ -115,7 +115,7 @@
           <div class="mt-32 flex flex-row items-center">
             <div class="flex flex-col max-w-sm pr-12">
               <h2 class="text-3xl header-color gt-walsheim-medium">Completly open source</h2>
-              <p class="mt-2 text-xl open-sans-regular">Our wallet code is avaiable for anyone to check or <a href="https://github.com/pokettocash" target="_blank" rel="noopener noreferrer" class="header-blue underline cursor-pointer hover-link ">discord</a> Help us build the future!</p>
+              <p class="mt-2 text-xl open-sans-regular">Our wallet code is avaiable for anyone to check or contribute to <br><a href="https://github.com/pokettocash" target="_blank" rel="noopener noreferrer" class="header-blue underline cursor-pointer hover-link ">on Github</a>. Help us build the future!</p>
             </div>
             <div class="w-64 background--illustration">
               <img src="@/assets/img/illustrations/open_source.png" alt="" />
@@ -180,7 +180,7 @@
         <div class="w-5/6 background--illustration">
           <img src="@/assets/img/illustrations/done_sunday.png" alt="" />
         </div>
-        <h1 class="mt-12 text-5xl gt-walsheim-medium leading-tight">Supported by a community</h1>
+        <h1 class="mt-16 text-5xl gt-walsheim-medium leading-tight">Supported by a community</h1>
         <p class="mt-4 text-center text-2xl open-sans-regular leading-snug">Poketto started as an idea within our <a href="https://donesunday.com" target="_blank" rel="noopener noreferrer" class="header-red underline cursor-pointer hover-link ">Done Sunday</a> community. <br> You can join our <a href="https://discord.gg/kMTUpME" target="_blank" rel="noopener noreferrer" class="header-blue underline cursor-pointer hover-link ">discord</a> and be part of the discussion too!</p>
       </div>
     </div>

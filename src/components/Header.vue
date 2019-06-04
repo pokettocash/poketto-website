@@ -17,14 +17,17 @@
       </div>
       <div class="hidden lg:block lg:inline-flex lg:items-center lg:w-auto">
         <div class="text-sm lg:flex-grow">
-          <a class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white mr-4">
-            Docs
+          <a class="block mt-4 lg:inline-block lg:mt-0 cursor-pointer gt-walsheim-regular text-black hover-link mr-5">
+            Wallet
           </a>
-          <a class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white mr-4">
-            Examples
+          <a class="block mt-4 lg:inline-block lg:mt-0 cursor-pointer gt-walsheim-regular text-black hover-link mr-5">
+            Features
           </a>
-          <a class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black">
-            Blog
+          <a class="block mt-4 lg:inline-block lg:mt-0 cursor-pointer gt-walsheim-regular text-black hover-link mr-5">
+            What is xDai
+          </a>
+          <a class="block mt-4 lg:inline-block lg:mt-0 cursor-pointer gt-walsheim-regular text-black hover-link">
+            Community
           </a>
         </div>
       </div>
