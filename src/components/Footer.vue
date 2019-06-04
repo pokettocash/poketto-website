@@ -6,7 +6,7 @@
       >
         <div class="sm:w-1/4 h-auto">
           <a
-            class="cursor-pointer inline-block w-8"
+            class="cursor-pointer inline-block w-8 grow"
             href="https://poketto.cash"
             target="_blank"
             rel="noopener noreferrer"
@@ -19,60 +19,69 @@
               >
           </a>
           <p
-            class="mt-32 text-left text-grey text-sm opacity-50 hidden md:block"
+            class="mt-32 text-left gt-walsheim-regular text-grey text-sm opacity-50 hidden md:block"
           >
             © Poketto Cash
           </p>
         </div>
         <div class="sm:w-1/4 h-auto sm:mt-0 mt-8">
-          <div class="font-mono font-bold text-grey-darkest mb-4">
+          <div class="gt-walsheim-medium text-lg text-grey-darkest mb-4">
             Poketto
           </div>
           <ul class="list-reset leading-normal cursor-pointer">
-            <li class="mb-2">
+            <li class="mb-3">
               <a
-                class="link hover:text-purple-dark text-grey-darker"
+                class="link open-sans-regular text-grey-darker hover-link"
                 href="https://youtu.be/7SmC7AuZNWY"
                 target="_blank"
                 rel="noopener noreferrer"
-                >Screenshots</a
+                >Download the app</a
               >
             </li>
-            <li class="mb-2">
+            <li class="mb-3">
               <a
-                class="link hover:text-purple-dark text-grey-darker"
+                class="link open-sans-regular text-grey-darker hover-link"
                 href="https://github.com/blockstack/gaia"
                 target="_blank"
                 rel="noopener noreferrer"
-                >Features</a
+                >Discover our features</a
               >
             </li>
-            <li class="mb-2">
+            <li class="mb-3">
               <a
-                class="link hover:text-purple-dark text-grey-darker"
+                class="link open-sans-regular text-grey-darker hover-link"
                 href="https://app.co/mining/apps"
                 target="_blank"
                 rel="noopener noreferrer"
-                >xDai</a
+                >Learn more about xDai</a
               >
             </li>
           </ul>
         </div>
         <div class="sm:w-1/4 h-auto sm:mt-0 mt-8">
-          <div class="font-mono font-bold text-grey-darkest mb-4">Support</div>
+          <div class="gt-walsheim-medium text-lg text-grey-darkest mb-4">Support</div>
           <ul class="list-reset leading-normal cursor-pointer">
             <li class="mb-2">
               <a
-                class="link hover:text-purple-dark text-grey-darker"
+                class="link open-sans-regular text-grey-darker hover-link"
                 href="mailto:support@poketto.cash"
                 target="_blank"
                 rel="noopener noreferrer"
-                >Contact</a
+                >Contact us</a
               >
             </li>
             <li class="mb-2">
               <a
-                class="link hover:text-purple-dark text-grey-darker"
+                class="link open-sans-regular text-grey-darker hover-link"
+                href="https://github.com/orgs/pokettocash/projects/2"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Onboard help</a
+              >
+            </li>
+            <li class="mb-2">
+              <a
+                class="link open-sans-regular text-grey-darker hover-link"
                 href="https://github.com/orgs/pokettocash/projects/2"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -85,7 +94,7 @@
           <transition appear name="fade">
             <div class="mt-12 md:mt-4">
               <a
-                class="opacity-100 inline-block w-8 mr-4"
+                class="opacity-100 inline-block w-8 mr-4 grow"
                 href="https://github.com/pokettocash"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -98,7 +107,7 @@
                   >
               </a>
               <a
-                class="opacity-100 inline-block w-8 mr-4"
+                class="opacity-100 inline-block w-8 mr-4 grow"
                 href="https://twitter.com/pokettocash"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -111,7 +120,7 @@
                 />
               </a>
               <a
-              class="opacity-100 inline-block w-8 mr-4"
+              class="opacity-100 inline-block w-8 mr-4 grow"
               href="https://discord.gg/kMTUpME"
               target="_blank"
               rel="noopener noreferrer"
@@ -123,7 +132,7 @@
                 src="@/assets/svg/logo-discord.svg">
               </a>
               <a
-                class="opacity-100 inline-block w-8 mr-4"
+                class="opacity-100 inline-block w-8 mr-4 grow"
                 href="https://www.producthunt.com/"
                 target="_blank"
                 rel="noopener noreferrer"

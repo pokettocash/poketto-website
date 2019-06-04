@@ -11,7 +11,7 @@
             <div class="mt-4 text-lg open-sans-regular leading-snug">The simplest, most secure and near instant way <br> to pay friends and your every day items.</div>
             <div class="inline-flex flex-row">
               <a
-                class="mt-8"
+                class="mt-8 hover-link"
                 href="https://poketto.cash"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -85,7 +85,7 @@
           <div class="mt-32 flex flex-row items-center">
             <div class="flex flex-col max-w-sm pr-12">
               <h2 class="text-3xl header-color gt-walsheim-medium">Near instant payments</h2>
-              <p class="mt-2 text-xl open-sans-regular">By using xDai you can transfer instantaneously with a <span v-popover:foo class="header-red underline cursor-pointer">ridiculous low transfer fee</span>* to another wallet.</p>
+              <p class="mt-2 text-xl open-sans-regular">By using xDai you can transfer instantaneously with a <span v-popover:foo class="header-red underline cursor-pointer hover-link">ridiculous low transfer fee</span>* to another wallet.</p>
               <popover class="open-sans-regular text-lg text-center px-4 -ml-8 mt-2" :width="225" :event="hover" name="foo">
                 $1 on every <br> 50,000 transactions!
               </popover>
@@ -115,7 +115,7 @@
           <div class="mt-32 flex flex-row items-center">
             <div class="flex flex-col max-w-sm pr-12">
               <h2 class="text-3xl header-color gt-walsheim-medium">Completly open source</h2>
-              <p class="mt-2 text-xl open-sans-regular">Our wallet code is avaiable for anyone to check or <span class="header-blue underline cursor-pointer">contribute to on Github</span>. Help us build the future!</p>
+              <p class="mt-2 text-xl open-sans-regular">Our wallet code is avaiable for anyone to check or <a href="https://github.com/pokettocash" target="_blank" rel="noopener noreferrer" class="header-blue underline cursor-pointer hover-link ">discord</a> Help us build the future!</p>
             </div>
             <div class="w-64 background--illustration">
               <img src="@/assets/img/illustrations/open_source.png" alt="" />
@@ -181,7 +181,7 @@
           <img src="@/assets/img/illustrations/done_sunday.png" alt="" />
         </div>
         <h1 class="mt-12 text-5xl gt-walsheim-medium leading-tight">Supported by a community</h1>
-        <p class="mt-4 text-center text-2xl open-sans-regular leading-snug">Poketto started as an idea within our <a href="https://donesunday.com" target="_blank" rel="noopener noreferrer" class="header-red underline cursor-pointer">Done Sunday</a> community. <br> You can join our <a href="https://discord.gg/kMTUpME" target="_blank" rel="noopener noreferrer" class="header-blue underline cursor-pointer">discord</a> and be part of the discussion too!</p>
+        <p class="mt-4 text-center text-2xl open-sans-regular leading-snug">Poketto started as an idea within our <a href="https://donesunday.com" target="_blank" rel="noopener noreferrer" class="header-red underline cursor-pointer hover-link ">Done Sunday</a> community. <br> You can join our <a href="https://discord.gg/kMTUpME" target="_blank" rel="noopener noreferrer" class="header-blue underline cursor-pointer hover-link ">discord</a> and be part of the discussion too!</p>
       </div>
     </div>
     <Footer />
