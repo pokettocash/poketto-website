@@ -7,10 +7,8 @@
         <div class="sm:w-1/4 h-auto">
           <a
             class="cursor-pointer inline-block w-8 grow"
-            href="https://poketto.cash"
-            target="_blank"
+            href="/"
             rel="noopener noreferrer"
-            title="Poketto Website"
           >
             <img
               alt="Poketto Icon"
@@ -41,9 +39,11 @@
             <li class="mb-3">
               <a
                 class="link open-sans-regular text-grey-darker hover-link"
-                href="#" v-scroll-to="'#wallet'"
-                >Discover our wallet</a
-              >
+                href="#wallet"
+                v-smooth-scroll="{ duration: 1000, offset: 85 }"
+                >
+                  Discover our wallet
+                </a>
             </li>
             <li class="mb-3">
               <a

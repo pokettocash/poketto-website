@@ -48,6 +48,10 @@
         <h1 class="mt-16 text-5xl gt-walsheim-medium">A wallet for everyone, everywhere</h1>
       </div>
     </div>
+    <transition
+  name="fade"
+  enter-active-class="bounceInLeft"
+  leave-active-class="bounceOutRight">
     <div id="wallet" class="flex background--alt">
       <div class="mx-auto flex flex-col flex-no-wrap items-center mt-32 mb-32">
         <h1 class="text-5xl gt-walsheim-medium leading-tight">Introducing your new wallet</h1>
@@ -77,6 +81,7 @@
         </div>
       </div>
     </div>
+    </transition>
     <div id="features" class="flex">
       <div class="container mx-auto flex flex-col items-center mt-32 mb-40">
         <h1 class="text-5xl gt-walsheim-medium leading-tight">Why use this wallet?</h1>
