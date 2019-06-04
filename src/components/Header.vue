@@ -17,16 +17,16 @@
       </div>
       <div class="hidden lg:block lg:inline-flex lg:items-center lg:w-auto">
         <div class="text-sm lg:flex-grow">
-          <a class="block mt-4 lg:inline-block lg:mt-0 cursor-pointer gt-walsheim-regular text-black hover-link mr-5">
+          <a href="#" v-scroll-to="'#wallet'" class="block mt-4 lg:inline-block lg:mt-0 cursor-pointer gt-walsheim-regular text-black hover-link mr-5">
             Wallet
           </a>
-          <a class="block mt-4 lg:inline-block lg:mt-0 cursor-pointer gt-walsheim-regular text-black hover-link mr-5">
+          <a href="#" v-scroll-to="'#features'" class="block mt-4 lg:inline-block lg:mt-0 cursor-pointer gt-walsheim-regular text-black hover-link mr-5">
             Features
           </a>
-          <a class="block mt-4 lg:inline-block lg:mt-0 cursor-pointer gt-walsheim-regular text-black hover-link mr-5">
+          <a href="#" v-scroll-to="'#xdai'" class="block mt-4 lg:inline-block lg:mt-0 cursor-pointer gt-walsheim-regular text-black hover-link mr-5">
             What is xDai
           </a>
-          <a class="block mt-4 lg:inline-block lg:mt-0 cursor-pointer gt-walsheim-regular text-black hover-link">
+          <a href="#" v-scroll-to="'#community'" class="block mt-4 lg:inline-block lg:mt-0 cursor-pointer gt-walsheim-regular text-black hover-link">
             Community
           </a>
         </div>

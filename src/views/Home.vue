@@ -10,7 +10,7 @@
             <h2 class="mt-8 text-3xl gt-walsheim-medium leading-tight">A wallet that you can <br> actually show to your parents </h2>
             <div class="mt-4 text-lg open-sans-regular leading-snug">The simplest, most secure and near instant way <br> to pay friends and your every day items.</div>
             <div class="inline-flex flex-row">
-              <a
+              <button
                 class="mt-8"
                 href="https://poketto.cash"
                 target="_blank"
@@ -20,7 +20,7 @@
                   class="w-40 cursor-pointer"
                   src="@/assets/svg/app-store.svg"
                   >
-              </a>
+              </button>
               <button
                 class="mt-8 ml-8"
                 v-on:click="show"
@@ -48,7 +48,7 @@
         <h1 class="mt-16 text-5xl gt-walsheim-medium">A wallet for everyone, everywhere</h1>
       </div>
     </div>
-    <div class="flex background--alt">
+    <div id="wallet" class="flex background--alt">
       <div class="mx-auto flex flex-col flex-no-wrap items-center mt-32 mb-32">
         <h1 class="text-5xl gt-walsheim-medium leading-tight">Introducing your new wallet</h1>
         <p class="mt-4 text-center text-2xl open-sans-regular leading-snug">You shouldn't have to read a manual to start using a payment wallet, <br> it should be as easy and intuitive as any other app you used before.</p>
@@ -77,7 +77,7 @@
         </div>
       </div>
     </div>
-    <div class="flex">
+    <div id="features" class="flex">
       <div class="container mx-auto flex flex-col items-center mt-32 mb-40">
         <h1 class="text-5xl gt-walsheim-medium leading-tight">Why use this wallet?</h1>
         <p class="mt-4 text-center text-2xl open-sans-regular leading-snug">We built our wallet with simplicity in mind from day one without <br> sacrificing any convenience that you need to use your money.</p>
@@ -124,37 +124,35 @@
         </div>
       </div>
     </div>
-    <div class="flex background--alt">
+    <div id="xdai" class="flex background--alt">
       <div class="container mx-auto flex flex-col items-center mt-32 mb-40">
         <div class="mt-16 inline-flex flex-row flex-no-wrap items-center">
           <div class="w-1/2 px-12 flex flex-col items-start">
             <h1 class="text-5xl gt-walsheim-medium leading-tight">Poketto uses xDai</h1>
             <div class="mt-4 text-lg open-sans-regular leading-normal mr-16">The xDai Chain is an Ethereum compatible sidechain with Dai as the native currency of the network, combining POA Network’s interoperability knowledge and technology with MakerDAO’s Dai, the permissionless, crypto-collateralized USD-stable coin.</div>
             <div class="inline-flex flex-row">
-              <a
+              <button
                 class="mt-8"
                 href="https://medium.com/poa-network/poa-network-partners-with-makerdao-on-xdai-chain-the-first-ever-usd-stable-blockchain-65a078c41e6a"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="App store link"
               >
                 <img
                   class="w-40 cursor-pointer"
                   src="@/assets/svg/learn-more.svg"
                   >
-              </a>
-              <a
+              </button>
+              <button
                 class="mt-8 ml-8"
                 href="https://medium.com/@jaredstauffer/how-to-get-xdai-how-to-convert-dai-to-xdai-eth-dai-xdai-30a60e4b6641"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="App store link"
               >
                 <img
                   class="w-40 cursor-pointer"
                   src="@/assets/svg/how-to-convert.svg"
                   >
-              </a>
+              </button>
             </div>
             <h2 class="mt-12 text-3xl gt-walsheim-medium leading-tight">Still unsure? <br> We can help you onboard!</h2>
             <a
@@ -175,7 +173,7 @@
         </div>
       </div>
     </div>
-    <div class="flex">
+    <div id="community" class="flex">
       <div class="container mx-auto flex flex-col items-center mt-32 mb-32">
         <div class="w-5/6 background--illustration">
           <img src="@/assets/img/illustrations/done_sunday.png" alt="" />

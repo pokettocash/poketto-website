@@ -32,7 +32,7 @@
             <li class="mb-3">
               <a
                 class="link open-sans-regular text-grey-darker hover-link"
-                href="https://youtu.be/7SmC7AuZNWY"
+                href="https://testflight.apple.com/join/DTj4abRB"
                 target="_blank"
                 rel="noopener noreferrer"
                 >Download the app</a
@@ -41,16 +41,14 @@
             <li class="mb-3">
               <a
                 class="link open-sans-regular text-grey-darker hover-link"
-                href="https://github.com/blockstack/gaia"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Discover our features</a
+                href="#" v-scroll-to="'#wallet'"
+                >Discover our wallet</a
               >
             </li>
             <li class="mb-3">
               <a
                 class="link open-sans-regular text-grey-darker hover-link"
-                href="https://app.co/mining/apps"
+                href="https://medium.com/poa-network/poa-network-partners-with-makerdao-on-xdai-chain-the-first-ever-usd-stable-blockchain-65a078c41e6a"
                 target="_blank"
                 rel="noopener noreferrer"
                 >Learn more about xDai</a
@@ -59,24 +57,24 @@
           </ul>
         </div>
         <div class="sm:w-1/4 h-auto sm:mt-0 mt-8">
-          <div class="gt-walsheim-medium text-lg text-grey-darkest mb-4">Support</div>
+          <div class="gt-walsheim-medium text-lg text-grey-darkest mb-4">Help</div>
           <ul class="list-reset leading-normal cursor-pointer">
             <li class="mb-2">
               <a
                 class="link open-sans-regular text-grey-darker hover-link"
-                href="mailto:support@poketto.cash"
+                href="mailto:onboard@poketto.cash?Subject=I%27m%20looking%20for%20a%201%3A1%20Poketto%20onboarding%20session&Body=%5BPlease%20let%20us%20know%20your%20availability%5D"
                 target="_blank"
                 rel="noopener noreferrer"
-                >Contact us</a
+                >Onboard 1:1</a
               >
             </li>
             <li class="mb-2">
               <a
                 class="link open-sans-regular text-grey-darker hover-link"
-                href="https://github.com/orgs/pokettocash/projects/2"
+                href="mailto:support@poketto.cash?Subject=I%27m%20having%20trouble%20with%20Poketto&Body=%5BPlease%20describe%20your%20issue%5D"
                 target="_blank"
                 rel="noopener noreferrer"
-                >Onboard help</a
+                >App support</a
               >
             </li>
             <li class="mb-2">
