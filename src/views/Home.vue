@@ -10,7 +10,7 @@
             <h2 class="mt-8 text-3xl gt-walsheim-medium leading-tight">A wallet that you can <br> actually show to your parents </h2>
             <div class="mt-4 text-lg open-sans-regular leading-snug">The simplest, most secure and near instant way <br> to pay friends and your every day items.</div>
             <div class="inline-flex flex-row">
-              <button
+              <a
                 class="mt-8"
                 href="https://testflight.apple.com/join/DTj4abRB"
                 target="_blank"
@@ -20,7 +20,7 @@
                   class="w-40 cursor-pointer"
                   src="@/assets/svg/app-store.svg"
                   >
-              </button>
+              </a>
               <button
                 class="mt-8 ml-8"
                 v-on:click="show"
@@ -131,7 +131,7 @@
             <h1 class="text-5xl gt-walsheim-medium leading-tight">Poketto uses xDai</h1>
             <div class="mt-4 text-lg open-sans-regular leading-normal mr-16">The xDai Chain is an Ethereum compatible sidechain with Dai as the native currency of the network, combining POA Network’s interoperability knowledge and technology with MakerDAO’s Dai, the permissionless, crypto-collateralized USD-stable coin.</div>
             <div class="inline-flex flex-row">
-              <button
+              <a
                 class="mt-8"
                 href="https://medium.com/poa-network/poa-network-partners-with-makerdao-on-xdai-chain-the-first-ever-usd-stable-blockchain-65a078c41e6a"
                 target="_blank"
@@ -141,8 +141,8 @@
                   class="w-40 cursor-pointer"
                   src="@/assets/svg/learn-more.svg"
                   >
-              </button>
-              <button
+              </a>
+              <a
                 class="mt-8 ml-8"
                 href="https://medium.com/@jaredstauffer/how-to-get-xdai-how-to-convert-dai-to-xdai-eth-dai-xdai-30a60e4b6641"
                 target="_blank"
@@ -152,20 +152,20 @@
                   class="w-40 cursor-pointer"
                   src="@/assets/svg/how-to-convert.svg"
                   >
-              </button>
+              </a>
             </div>
             <h2 class="mt-12 text-3xl gt-walsheim-medium leading-tight">Still unsure? <br> We can help you onboard!</h2>
             <a
-                class="mt-8"
-                href=""
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  class="w-40 cursor-pointer"
-                  src="@/assets/svg/help-onboard.svg"
-                  >
-              </a>
+              class="mt-8"
+              href="mailto:onboard@poketto.cash?Subject=I%27m%20looking%20for%20a%201%3A1%20Poketto%20onboarding%20session&Body=%5BPlease%20let%20us%20know%20your%20availability%5D"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                class="w-40 cursor-pointer"
+                src="@/assets/svg/help-onboard.svg"
+                >
+            </a>
           </div>
           <div class="w-1/2 max-w-5xl px-16">
             <img src="@/assets/img/illustrations/xdai.png" alt="" />
