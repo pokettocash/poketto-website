@@ -11,7 +11,7 @@
       </button>
       <div class="px-6 py-3 flex flex-row items-start">
         <div class="w-1/2 p-4 flex flex-col items-center justify-center">
-          <div class="">
+          <div>
             <div class="flex flex-row opacity-75">
               <img class="w-12 h-12 mr-2" src="@/assets/svg/eth.svg" />
               <img class="w-10 h-12 mr-2" src="@/assets/svg/xdai.svg" />
@@ -33,7 +33,9 @@
             >
               Copy to clipboard
             </button>
-            <p v-if="copyResult==true" class="mt-2 text-xs text-center open-sans-regular">Copied 👍</p>
+            <transition appear name="fadeDown">
+              <p v-if="copyResult==true" class="mt-2 text-xs text-center open-sans-regular">Copied 👍</p>
+            </transition>
           </div>
         </div>
       </div>
@@ -60,7 +62,9 @@ export default {
     },
     hide () {
       this.$modal.hide('donation');
-      window.location.reload();
+      setTimeout(() => {
+        window.location.reload();
+      }, 200);
     }
   }
 };

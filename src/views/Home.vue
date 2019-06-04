@@ -9,33 +9,37 @@
             <img class="w-64" src="@/assets/svg/poketto-text.svg">
             <h2 class="mt-8 text-3xl gt-walsheim-medium leading-tight">A wallet that you can <br> actually show to your parents </h2>
             <div class="mt-4 text-lg open-sans-regular leading-snug">The simplest, most secure and near instant way <br> to pay friends and your every day items.</div>
-            <div class="inline-flex flex-row">
-              <a
-                class="mt-8"
-                href="https://testflight.apple.com/join/DTj4abRB"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  class="w-40 cursor-pointer"
-                  src="@/assets/svg/app-store.svg"
-                  >
-              </a>
-              <button
-                class="mt-8 ml-8"
-                @click="$modal.show('donation')"
-              >
-                <img
-                  class="w-40 cursor-pointer"
-                  src="@/assets/svg/donation.svg"
-                  >
-                <DonationModal />
-              </button>
+            <transition appear name="fade">
+              <div class="inline-flex flex-row">
+                <a
+                  class="mt-8"
+                  href="https://testflight.apple.com/join/DTj4abRB"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    class="w-40 cursor-pointer"
+                    src="@/assets/svg/app-store.svg"
+                    >
+                </a>
+                <button
+                  class="mt-8 ml-8"
+                  @click="$modal.show('donation')"
+                >
+                  <img
+                    class="w-40 cursor-pointer"
+                    src="@/assets/svg/donation.svg"
+                    >
+                  <DonationModal />
+                </button>
+              </div>
+            </transition>
+          </div>
+            <div class="w-1/2 px-16">
+              <transition appear name="fade">
+                <img src="@/assets/img/intro/iphone@2x.png" />
+              </transition>
             </div>
-          </div>
-          <div class="w-1/2 px-16">
-            <img src="@/assets/img/intro/iphone@2x.png" />
-          </div>
           </div>
         </div>
       </div>
@@ -45,43 +49,43 @@
         <div class="w-5/6">
           <img src="@/assets/img/illustrations/everyone.png" />
         </div>
-        <h1 class="mt-16 text-5xl gt-walsheim-medium">A wallet for everyone, everywhere</h1>
+        <h1
+          class="mt-16 text-5xl gt-walsheim-medium"
+          v-scroll-reveal="{ delay: 500, distance: '15%' }"
+          >A wallet for everyone, everywhere</h1>
       </div>
     </div>
-    <transition
-  name="fade"
-  enter-active-class="bounceInLeft"
-  leave-active-class="bounceOutRight">
     <div id="wallet" class="flex background--alt">
       <div class="mx-auto flex flex-col flex-no-wrap items-center mt-32 mb-32">
         <h1 class="text-5xl gt-walsheim-medium leading-tight">Introducing your new wallet</h1>
         <p class="mt-4 text-center text-2xl open-sans-regular leading-snug">You shouldn't have to read a manual to start using a payment wallet, <br> it should be as easy and intuitive as any other app you used before.</p>
-        <div class="mt-24 max-w-7xl flex flex-row items-center justify-around -mx-10">
-          <div class="max-w-sm mr-6">
+        <div
+          class="mt-24 max-w-7xl flex flex-row items-center justify-around -mx-10"
+          >
+          <div class="max-w-sm mr-6" v-scroll-reveal="{ delay: 1000, distance: '20%' }">
             <img src="@/assets/img/app/settings@2x.png" />
           </div>
-          <div class="max-w-sm mr-6">
+          <div class="max-w-sm mr-6" v-scroll-reveal="{ delay: 1000, distance: '20%' }">
             <img src="@/assets/img/app/request-qr@2x.png" />
           </div>
-          <div class="max-w-sm mr-4">
+          <div class="max-w-sm mr-4" v-scroll-reveal="{ delay: 1000, distance: '20%' }">
             <img src="@/assets/img/app/request@2x.png" />
           </div>
-          <div class="max-w-2xl">
+          <div class="max-w-2xl" v-scroll-reveal="{ delay: 500, distance: '20%' }">
             <img src="@/assets/img/intro/iphone-alt@3x.png" />
           </div>
-          <div class="max-w-sm ml-4">
+          <div class="max-w-sm ml-4" v-scroll-reveal="{ delay: 1000, distance: '20%' }">
             <img src="@/assets/img/app/pay@2x.png" />
           </div>
-          <div class="max-w-sm ml-6">
+          <div class="max-w-sm ml-6" v-scroll-reveal="{ delay: 1000, distance: '20%' }">
             <img src="@/assets/img/app/pay-amount@2x.png" />
           </div>
-          <div class="max-w-sm ml-6">
+          <div class="max-w-sm ml-6" v-scroll-reveal="{ delay: 1000, distance: '20%' }">
             <img src="@/assets/img/app/pay-confirm@2x.png" />
           </div>
         </div>
       </div>
     </div>
-    </transition>
     <div id="features" class="flex">
       <div class="container mx-auto flex flex-col items-center mt-32 mb-40">
         <h1 class="text-5xl gt-walsheim-medium leading-tight">Why use this wallet?</h1>
@@ -172,7 +176,7 @@
                 >
             </a>
           </div>
-          <div class="w-1/2 max-w-5xl px-16">
+          <div class="w-1/2 max-w-5xl px-16" v-scroll-reveal="{ delay: 1000, distance: '20%' }">
             <img src="@/assets/img/illustrations/xdai.png" alt="" />
           </div>
         </div>
@@ -183,8 +187,8 @@
         <div class="w-5/6 background--illustration">
           <img src="@/assets/img/illustrations/done_sunday.png" alt="" />
         </div>
-        <h1 class="mt-16 text-5xl gt-walsheim-medium leading-tight">Supported by a community</h1>
-        <p class="mt-4 text-center text-2xl open-sans-regular leading-snug">Poketto started as an idea within our <a href="https://donesunday.com" target="_blank" rel="noopener noreferrer" class="header-red underline cursor-pointer hover-link ">Done Sunday</a> community. <br> You can join our <a href="https://discord.gg/kMTUpME" target="_blank" rel="noopener noreferrer" class="header-blue underline cursor-pointer hover-link ">discord</a> and be part of the discussion too!</p>
+        <h1 class="mt-16 text-5xl gt-walsheim-medium leading-tight" v-scroll-reveal="{ delay: 500, distance: '15%' }">Supported by a community</h1>
+        <p class="mt-4 text-center text-2xl open-sans-regular leading-snug" v-scroll-reveal="{ delay: 500, distance: '15%' }">Poketto started as an idea within our <a href="https://donesunday.com" target="_blank" rel="noopener noreferrer" class="header-red underline cursor-pointer hover-link ">Done Sunday</a> community. <br> You can join our <a href="https://discord.gg/kMTUpME" target="_blank" rel="noopener noreferrer" class="header-blue underline cursor-pointer hover-link ">discord</a> and be part of the discussion too!</p>
       </div>
     </div>
     <Footer />

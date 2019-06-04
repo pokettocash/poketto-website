@@ -2,17 +2,19 @@
   <div class="background--alt">
     <nav class="container mx-auto flex items-center justify-between flex-wrap pt-8 px-12">
       <div class="flex items-center flex-shrink-0 text-black mr-6">
-        <a
-          class="cursor-pointer inline-block w-8 grow"
-          href="/"
-          rel="noopener noreferrer"
-        >
-          <img
-            alt="Poketto Icon"
-            class="w-8"
-            src="@/assets/svg/poketto-icon.svg"
-            >
-        </a>
+        <transition appear name="fadeDown">
+          <a
+            class="cursor-pointer inline-block w-8 grow"
+            href="/"
+            rel="noopener noreferrer"
+          >
+            <img
+              alt="Poketto Icon"
+              class="w-8"
+              src="@/assets/svg/poketto-icon.svg"
+              >
+          </a>
+        </transition>
       </div>
       <div class="hidden lg:block lg:inline-flex lg:items-center lg:w-auto">
         <div class="text-sm lg:flex-grow">
