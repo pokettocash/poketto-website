@@ -6,8 +6,16 @@
 
 @import "tailwindcss/utilities";
 
-.header-color {
+.header-red {
   color: #D35537;
+}
+
+.header-yellow {
+  color: #FFD131;
+}
+
+.header-blue{
+  color: #60CCC3;
 }
 
 .background {
