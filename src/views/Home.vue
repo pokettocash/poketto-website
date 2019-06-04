@@ -23,7 +23,7 @@
               </a>
               <button
                 class="mt-8 ml-8"
-                v-on:click="show"
+                @click="$modal.show('donation')"
               >
                 <img
                   class="w-40 cursor-pointer"
@@ -34,7 +34,7 @@
             </div>
           </div>
           <div class="w-1/2 px-16">
-            <img src="@/assets/img/intro/iphone@2x.png" alt="" />
+            <img src="@/assets/img/intro/iphone@2x.png" />
           </div>
           </div>
         </div>
@@ -197,11 +197,6 @@ export default {
     Header,
     DonationModal,
     Footer,
-  },
-  methods: {
-    show () {
-      this.$modal.show('donation');
-    }
   }
 };
 </script>
