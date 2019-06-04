@@ -15,27 +15,22 @@
                 href="https://poketto.cash"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="App store link"
               >
                 <img
-                  alt="App store badge"
                   class="w-40 cursor-pointer"
                   src="@/assets/svg/app-store.svg"
                   >
               </a>
-              <a
+              <button
                 class="mt-8 ml-8"
-                href="https://poketto.cash"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="App store link"
+                v-on:click="show"
               >
                 <img
-                  alt="App store badge"
                   class="w-40 cursor-pointer"
                   src="@/assets/svg/donation.svg"
                   >
-              </a>
+                <DonationModal />
+              </button>
             </div>
           </div>
           <div class="w-1/2 px-16">
@@ -192,13 +187,20 @@
 
 <script>
 import Header from "@/components/Header.vue";
+import DonationModal from "@/components/DonationModal.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
   name: "Home",
   components: {
     Header,
+    DonationModal,
     Footer,
+  },
+  methods: {
+    show () {
+      this.$modal.show('donation');
+    }
   }
 };
 </script>
