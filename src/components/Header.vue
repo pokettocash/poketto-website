@@ -1,6 +1,6 @@
 <template>
   <div class="background--alt">
-    <nav class="container mx-auto flex items-center justify-between flex-wrap pt-8 px-12">
+    <nav class="container mx-auto flex items-center justify-between flex-wrap pt-8 px-6 md:px-12">
       <div class="flex items-center flex-shrink-0 text-black mr-6">
         <transition appear name="fadeDown">
           <a

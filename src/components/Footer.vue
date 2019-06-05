@@ -1,10 +1,10 @@
 <template>
-  <div class="pt-24 pb-16 bg-white p-8 background--alt">
+  <div class="pt-24 pb-20 md:pb-16 bg-white p-8 background--alt">
     <div class="container mx-auto text-left opacity-100 text-sm lg:px-4">
       <div
-        class="flex flex-col justify-center items-start content-start md:flex-row mb-4"
+        class="flex flex-col justify-center items-start content-start lg:flex-row mb-4"
       >
-        <div class="sm:w-1/4 h-auto">
+        <div class="mb-6 md:mb-0 sm:w-1/4 h-auto">
           <a
             v-scroll-reveal="{ delay: 1000, distance: '5%' }"
             class="cursor-pointer inline-block w-8 grow"
@@ -18,7 +18,7 @@
               >
           </a>
           <p
-            class="mt-32 text-left gt-walsheim-regular text-grey text-sm opacity-50 hidden md:block"
+            class="mt-32 text-left gt-walsheim-regular text-grey text-sm opacity-50 hidden lg:block"
           >
             © Poketto Cash
           </p>
@@ -28,7 +28,7 @@
             Poketto
           </div>
           <ul class="list-reset leading-normal cursor-pointer">
-            <li class="mb-3">
+            <li class="mb-4 md:mb-2">
               <a
                 class="link open-sans-regular text-grey-darker hover-link"
                 href="https://testflight.apple.com/join/DTj4abRB"
@@ -37,7 +37,7 @@
                 >Download the app</a
               >
             </li>
-            <li class="mb-3">
+            <li class="mb-4 md:mb-2">
               <a
                 class="link open-sans-regular text-grey-darker hover-link"
                 href="#wallet"
@@ -46,7 +46,7 @@
                   Discover our wallet
                 </a>
             </li>
-            <li class="mb-3">
+            <li class="mb-4 md:mb-2">
               <a
                 class="link open-sans-regular text-grey-darker hover-link"
                 href="https://medium.com/poa-network/poa-network-partners-with-makerdao-on-xdai-chain-the-first-ever-usd-stable-blockchain-65a078c41e6a"
@@ -57,10 +57,10 @@
             </li>
           </ul>
         </div>
-        <div class="sm:w-1/4 h-auto sm:mt-0 mt-8">
+        <div class="sm:w-1/4 h-auto mt-8 lg:mt-0">
           <div class="gt-walsheim-medium text-lg text-grey-darkest mb-4">Help</div>
           <ul class="list-reset leading-normal cursor-pointer">
-            <li class="mb-2">
+            <li class="mb-4 md:mb-2">
               <a
                 class="link open-sans-regular text-grey-darker hover-link"
                 href="mailto:onboard@poketto.cash?Subject=I%27m%20looking%20for%20a%201%3A1%20Poketto%20onboarding%20session&Body=%5BPlease%20let%20us%20know%20your%20availability%5D"
@@ -69,7 +69,7 @@
                 >Onboard 1:1</a
               >
             </li>
-            <li class="mb-2">
+            <li class="mb-4 md:mb-2">
               <a
                 class="link open-sans-regular text-grey-darker hover-link"
                 href="mailto:support@poketto.cash?Subject=I%27m%20having%20trouble%20with%20Poketto&Body=%5BPlease%20describe%20your%20issue%5D"
@@ -78,7 +78,7 @@
                 >App support</a
               >
             </li>
-            <li class="mb-2">
+            <li class="mb-4 md:mb-2">
               <a
                 class="link open-sans-regular text-grey-darker hover-link"
                 href="https://github.com/orgs/pokettocash/projects/2"
@@ -91,9 +91,9 @@
         </div>
         <div>
           <transition appear name="fade">
-            <div class="mt-12 md:mt-4 lg:mt-0">
+            <div class="mt-12 mt-4 lg:mt-0">
               <a
-                class="opacity-100 inline-block w-8 mr-4 grow"
+                class="opacity-100 inline-block w-8 mr-6 md:mr-4 grow"
                 href="https://github.com/pokettocash"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -106,7 +106,7 @@
                   >
               </a>
               <a
-                class="opacity-100 inline-block w-8 mr-4 grow"
+                class="opacity-100 inline-block w-8 mr-6 md:mr-4 grow"
                 href="https://twitter.com/pokettocash"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -119,7 +119,7 @@
                 />
               </a>
               <a
-              class="opacity-100 inline-block w-8 mr-4 grow"
+              class="opacity-100 inline-block w-8 mr-6 md:mr-4 grow"
               href="https://discord.gg/kMTUpME"
               target="_blank"
               rel="noopener noreferrer"
@@ -131,7 +131,7 @@
                 src="@/assets/svg/logo-discord.svg">
               </a>
               <a
-                class="opacity-100 inline-block w-8 mr-4 grow"
+                class="opacity-100 inline-block w-8 mr-6 md:mr-4 grow"
                 href="https://www.producthunt.com/"
                 target="_blank"
                 rel="noopener noreferrer"
