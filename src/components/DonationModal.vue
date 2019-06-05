@@ -69,13 +69,3 @@ export default {
   }
 };
 </script>
-
-<style lang="scss">
-
-.v--modal-overlay {
-  background: linear-gradient(to bottom left, rgba(255,209,49,0.2), rgba(239,167,146,0.6));
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-</style>

@@ -67,25 +67,25 @@
         <div
           class="mt-24 md:max-w-7xl flex flex-row items-center justify-around -mx-16 md:-mx-10"
           >
-          <div class="hidden md:block max-w-sm mr-6" v-scroll-reveal="{ delay: 1000, distance: '20%' }">
+          <div class="hidden md:block max-w-sm mr-6" v-scroll-reveal="{ delay: 1500, distance: '20%' }">
             <img src="@/assets/img/app/settings@2x.png" />
           </div>
-          <div class="hidden md:block max-w-sm mr-6" v-scroll-reveal="{ delay: 1000, distance: '20%' }">
+          <div class="hidden md:block max-w-sm mr-6" v-scroll-reveal="{ delay: 1500, distance: '20%' }">
             <img src="@/assets/img/app/request-qr@2x.png" />
           </div>
-          <div class="hidden md:block max-w-sm mr-4" v-scroll-reveal="{ delay: 1000, distance: '20%' }">
+          <div class="hidden md:block max-w-sm mr-4" v-scroll-reveal="{ delay: 1500, distance: '20%' }">
             <img src="@/assets/img/app/request@2x.png" />
           </div>
-          <div class="hidden md:block max-w-2xl" v-scroll-reveal="{ delay: 500, distance: '20%' }">
+          <div class="hidden md:block max-w-2xl" v-scroll-reveal="{ delay: 1000, distance: '20%' }">
             <img src="@/assets/img/intro/iphone-alt@2x.png" />
           </div>
-          <div class="max-w-sm md:ml-4" v-scroll-reveal="{ delay: 1000, distance: '20%' }">
+          <div class="max-w-sm md:ml-4" v-scroll-reveal="{ delay: 1500, distance: '20%' }">
             <img src="@/assets/img/app/pay@2x.png" />
           </div>
-          <div class="max-w-sm ml-2 md:ml-6" v-scroll-reveal="{ delay: 1000, distance: '20%' }">
+          <div class="max-w-sm ml-2 md:ml-6" v-scroll-reveal="{ delay: 1500, distance: '20%' }">
             <img src="@/assets/img/app/pay-amount@2x.png" />
           </div>
-          <div class="max-w-sm ml-2 md:ml-6" v-scroll-reveal="{ delay: 1000, distance: '20%' }">
+          <div class="max-w-sm ml-2 md:ml-6" v-scroll-reveal="{ delay: 1500, distance: '20%' }">
             <img src="@/assets/img/app/pay-confirm@2x.png" />
           </div>
         </div>

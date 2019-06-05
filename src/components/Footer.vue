@@ -131,7 +131,7 @@
                 src="@/assets/svg/logo-discord.svg">
               </a>
               <a
-                class="opacity-100 inline-block w-8 mr-6 md:mr-4 grow"
+                class="hidden opacity-100 inline-block w-8 mr-6 md:mr-4 grow"
                 href="https://www.producthunt.com/"
                 target="_blank"
                 rel="noopener noreferrer"
