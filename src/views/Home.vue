@@ -13,7 +13,7 @@
               <div class="inline-flex flex-row">
                 <a
                   class="mt-8"
-                  href="https://testflight.apple.com/join/DTj4abRB"
+                  href="https://itunes.apple.com/us/app/poketto-cash/id1460141974"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

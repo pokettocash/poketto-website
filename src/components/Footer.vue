@@ -31,7 +31,7 @@
             <li class="mb-4 md:mb-2">
               <a
                 class="link open-sans-regular text-grey-darker hover-link"
-                href="https://testflight.apple.com/join/DTj4abRB"
+                href="https://itunes.apple.com/us/app/poketto-cash/id1460141974"
                 target="_blank"
                 rel="noopener noreferrer"
                 >Download the app</a
