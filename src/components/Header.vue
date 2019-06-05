@@ -1,6 +1,8 @@
 <template>
   <div class="background--alt">
-    <nav class="container mx-auto flex items-center justify-between flex-wrap pt-8 px-6 md:px-12">
+    <nav
+      class="container mx-auto flex items-center justify-between flex-wrap pt-8 px-6 md:px-12"
+    >
       <div class="flex items-center flex-shrink-0 text-black mr-6">
         <transition appear name="fadeDown">
           <a
@@ -12,35 +14,39 @@
               alt="Poketto Icon"
               class="w-8"
               src="@/assets/svg/poketto-icon.svg"
-              >
+            />
           </a>
         </transition>
       </div>
       <div class="hidden lg:block lg:inline-flex lg:items-center lg:w-auto">
         <div class="text-sm lg:flex-grow">
-          <a href="#wallet"
+          <a
+            href="#wallet"
             v-smooth-scroll="{ duration: 1000, offset: 85 }"
             class="block mt-4 lg:inline-block lg:mt-0 cursor-pointer gt-walsheim-regular text-black hover-link mr-5"
-            >
-              Wallet
+          >
+            Wallet
           </a>
-          <a href="#features"
+          <a
+            href="#features"
             v-smooth-scroll="{ duration: 1000 }"
             class="block mt-4 lg:inline-block lg:mt-0 cursor-pointer gt-walsheim-regular text-black hover-link mr-5"
-            >
-              Features
+          >
+            Features
           </a>
-          <a href="#xdai"
+          <a
+            href="#xdai"
             v-smooth-scroll="{ duration: 1000 }"
             class="block mt-4 lg:inline-block lg:mt-0 cursor-pointer gt-walsheim-regular text-black hover-link mr-5"
-            >
-              What is xDai
+          >
+            What is xDai
           </a>
-          <a href="#community"
+          <a
+            href="#community"
             v-smooth-scroll="{ duration: 1000, offset: 95 }"
             class="block mt-4 lg:inline-block lg:mt-0 cursor-pointer gt-walsheim-regular text-black hover-link"
-            >
-              Community
+          >
+            Community
           </a>
         </div>
       </div>
@@ -50,6 +56,6 @@
 
 <script>
 export default {
-  name: "Header",
+  name: "Header"
 };
 </script>

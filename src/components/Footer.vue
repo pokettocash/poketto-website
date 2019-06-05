@@ -15,7 +15,7 @@
               alt="Poketto Icon"
               class="w-8 grow"
               src="@/assets/svg/poketto-icon.svg"
-              >
+            />
           </a>
           <p
             class="mt-32 text-left gt-walsheim-regular text-grey text-sm opacity-50 hidden lg:block"
@@ -42,9 +42,9 @@
                 class="link open-sans-regular text-grey-darker hover-link"
                 href="#wallet"
                 v-smooth-scroll="{ duration: 1000, offset: 85 }"
-                >
-                  Discover our wallet
-                </a>
+              >
+                Discover our wallet
+              </a>
             </li>
             <li class="mb-4 md:mb-2">
               <a
@@ -58,7 +58,9 @@
           </ul>
         </div>
         <div class="sm:w-1/4 h-auto mt-8 lg:mt-0">
-          <div class="gt-walsheim-medium text-lg text-grey-darkest mb-4">Help</div>
+          <div class="gt-walsheim-medium text-lg text-grey-darkest mb-4">
+            Help
+          </div>
           <ul class="list-reset leading-normal cursor-pointer">
             <li class="mb-4 md:mb-2">
               <a
@@ -103,7 +105,7 @@
                   alt="Github Icon"
                   class="w-8"
                   src="@/assets/svg/logo-github.svg"
-                  >
+                />
               </a>
               <a
                 class="opacity-100 inline-block w-8 mr-6 md:mr-4 grow"
@@ -119,16 +121,17 @@
                 />
               </a>
               <a
-              class="opacity-100 inline-block w-8 mr-6 md:mr-4 grow"
-              href="https://discord.gg/kMTUpME"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Discord"
-            >
-              <img
-                alt="Discord Icon"
-                class="w-8"
-                src="@/assets/svg/logo-discord.svg">
+                class="opacity-100 inline-block w-8 mr-6 md:mr-4 grow"
+                href="https://discord.gg/kMTUpME"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Discord"
+              >
+                <img
+                  alt="Discord Icon"
+                  class="w-8"
+                  src="@/assets/svg/logo-discord.svg"
+                />
               </a>
               <a
                 class="hidden opacity-100 inline-block w-8 mr-6 md:mr-4 grow"
@@ -153,6 +156,6 @@
 
 <script>
 export default {
-  name: "Footer",
+  name: "Footer"
 };
 </script>
