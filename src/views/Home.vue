@@ -37,7 +37,7 @@
           </div>
             <div class="md:w-1/2 md:px-16 mt-8 block md:hidden">
               <transition appear name="fade">
-                <img class="mt-8 block md:hidden" src="@/assets/img/intro/iphone-half@3x.png" />
+                <img class="mt-8 block md:hidden" src="@/assets/img/intro/iphone-half@2x.png" />
               </transition>
             </div>
             <div class="md:w-1/2 md:px-16 hidden md:block">
@@ -77,7 +77,7 @@
             <img src="@/assets/img/app/request@2x.png" />
           </div>
           <div class="hidden md:block max-w-2xl" v-scroll-reveal="{ delay: 500, distance: '20%' }">
-            <img src="@/assets/img/intro/iphone-alt@3x.png" />
+            <img src="@/assets/img/intro/iphone-alt@2x.png" />
           </div>
           <div class="max-w-sm md:ml-4" v-scroll-reveal="{ delay: 1000, distance: '20%' }">
             <img src="@/assets/img/app/pay@2x.png" />
