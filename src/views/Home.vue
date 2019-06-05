@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="overflow-x-hidden">
     <Header />
     <div class="background--alt">
       <div class="container mx-auto flex md:min-h-screen">
