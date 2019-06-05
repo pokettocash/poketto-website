@@ -50,7 +50,7 @@
               <transition appear name="fade">
                 <img
                   class="mt-8 block md:hidden"
-                  src="@/assets/img/intro/iphone-half@2x.png"
+                  src="@/assets/img/intro/iphone-half.png"
                 />
               </transition>
             </div>
@@ -58,7 +58,7 @@
               <transition appear name="fade">
                 <img
                   class="hidden md:block"
-                  src="@/assets/img/intro/iphone@2x.png"
+                  src="@/assets/img/intro/iphone.png"
                 />
               </transition>
             </div>
@@ -71,7 +71,7 @@
         class="container mx-auto flex flex-col items-center mt-24 mb-24 md:mt-32 md:mb-32"
       >
         <div class="w-5/6">
-          <img src="@/assets/img/illustrations/everyone.png" />
+          <img src="@/assets/img/illustrations/everyone.jpg" />
         </div>
         <h1
           class="mt-16 text-center text-3xl md:text-4xl lg:text-5xl gt-walsheim-medium"
@@ -101,43 +101,43 @@
             class="hidden md:block max-w-sm mr-6"
             v-scroll-reveal="{ delay: 1500, distance: '20%' }"
           >
-            <img src="@/assets/img/app/settings@2x.png" />
+            <img src="@/assets/img/app/settings.png" />
           </div>
           <div
             class="hidden md:block max-w-sm mr-6"
             v-scroll-reveal="{ delay: 1500, distance: '20%' }"
           >
-            <img src="@/assets/img/app/request-qr@2x.png" />
+            <img src="@/assets/img/app/request-qr.png" />
           </div>
           <div
             class="hidden md:block max-w-sm mr-4"
             v-scroll-reveal="{ delay: 1500, distance: '20%' }"
           >
-            <img src="@/assets/img/app/request@2x.png" />
+            <img src="@/assets/img/app/request.png" />
           </div>
           <div
             class="hidden md:block max-w-2xl"
             v-scroll-reveal="{ delay: 1000, distance: '20%' }"
           >
-            <img src="@/assets/img/intro/iphone-alt@2x.png" />
+            <img src="@/assets/img/intro/iphone-alt.png" />
           </div>
           <div
             class="max-w-sm md:ml-4"
             v-scroll-reveal="{ delay: 1500, distance: '20%' }"
           >
-            <img src="@/assets/img/app/pay@2x.png" />
+            <img src="@/assets/img/app/pay.png" />
           </div>
           <div
             class="max-w-sm ml-2 md:ml-6"
             v-scroll-reveal="{ delay: 1500, distance: '20%' }"
           >
-            <img src="@/assets/img/app/pay-amount@2x.png" />
+            <img src="@/assets/img/app/pay-amount.png" />
           </div>
           <div
             class="max-w-sm ml-2 md:ml-6"
             v-scroll-reveal="{ delay: 1500, distance: '20%' }"
           >
-            <img src="@/assets/img/app/pay-confirm@2x.png" />
+            <img src="@/assets/img/app/pay-confirm.png" />
           </div>
         </div>
       </div>
@@ -189,7 +189,7 @@
             </div>
             <div class="w-3/4 md:w-48 lg:w-64 background--illustration">
               <img
-                src="@/assets/img/illustrations/instant_payments.png"
+                src="@/assets/img/illustrations/instant_payments.jpg"
                 alt=""
               />
             </div>
@@ -211,7 +211,7 @@
               </p>
             </div>
             <div class="w-3/4 md:w-48 lg:w-64 background--illustration">
-              <img src="@/assets/img/illustrations/wallet_phone.png" alt="" />
+              <img src="@/assets/img/illustrations/wallet_phone.jpg" alt="" />
             </div>
           </div>
           <div
@@ -232,7 +232,7 @@
             </div>
             <div class="w-3/4 md:w-48 lg:w-64 lg:w-6 background--illustration">
               <img
-                src="@/assets/img/illustrations/addresses_contacts.png"
+                src="@/assets/img/illustrations/addresses_contacts.jpg"
                 alt=""
               />
             </div>
@@ -260,7 +260,7 @@
               </p>
             </div>
             <div class="w-3/4 md:w-48 lg:w-64 background--illustration">
-              <img src="@/assets/img/illustrations/open_source.png" alt="" />
+              <img src="@/assets/img/illustrations/open_source.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -343,7 +343,7 @@
         class="container mx-auto flex flex-col px-6 md:px-0 items-center mt-24 mb-24 md:mt-32 md:mb-32"
       >
         <div class="w-5/6 background--illustration">
-          <img src="@/assets/img/illustrations/done_sunday.png" alt="" />
+          <img src="@/assets/img/illustrations/done_sunday.jpg" alt="" />
         </div>
         <h1
           class="mt-16 text-center md:text-left text-3xl md:text-4xl lg:text-5xl gt-walsheim-medium leading-tight"
