@@ -12,7 +12,7 @@
             <transition appear name="fade">
               <div class="inline-flex flex-row">
                 <a
-                  class="mt-8"
+                  class="mt-8 grow--button"
                   href="https://itunes.apple.com/us/app/poketto-cash/id1460141974"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -146,7 +146,7 @@
             <div class="mt-4 text-center md:text-left text-base md:text-base lg:text-lg open-sans-regular leading-normal lg:mr-16">The xDai Chain is an Ethereum compatible sidechain with Dai as the native currency of the network, combining POA Network’s interoperability knowledge and technology with MakerDAO’s Dai, the permissionless, crypto-collateralized USD-stable coin.</div>
             <div class="inline-flex flex-row">
               <a
-                class="mt-8"
+                class="mt-8 grow--button"
                 href="https://medium.com/poa-network/poa-network-partners-with-makerdao-on-xdai-chain-the-first-ever-usd-stable-blockchain-65a078c41e6a"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -157,7 +157,7 @@
                   >
               </a>
               <a
-                class="mt-8 ml-8"
+                class="mt-8 ml-8 grow--button"
                 href="https://medium.com/@jaredstauffer/how-to-get-xdai-how-to-convert-dai-to-xdai-eth-dai-xdai-30a60e4b6641"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -170,7 +170,7 @@
             </div>
             <h2 class="hidden lg:block mt-12 text-3xl gt-walsheim-medium leading-tight">Still unsure? <br> We can help you onboard!</h2>
             <a
-              class="mt-8 hidden lg:block"
+              class="mt-8 hidden lg:block grow--button"
               href="mailto:onboard@poketto.cash?Subject=I%27m%20looking%20for%20a%201%3A1%20Poketto%20onboarding%20session&Body=%5BPlease%20let%20us%20know%20your%20availability%5D"
               target="_blank"
               rel="noopener noreferrer"

@@ -29,7 +29,7 @@
             <button
               v-clipboard="copyData"
               @success="handleSuccess"
-              class="mt-6 text-center open-sans-regular cursor-pointer poketto-colour hover-button text-white py-2 px-4 rounded"
+              class="mt-6 text-center open-sans-regular cursor-pointer poketto-colour text-white py-2 px-4 rounded grow--button"
             >
               Copy to clipboard
             </button>

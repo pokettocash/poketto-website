@@ -73,3 +73,11 @@
     transform: scale(1.3);
   }
 }
+
+.grow--button {
+  &:hover{
+    -webkit-transform: scale(1.025);
+    -ms-transform: scale(1.025);
+    transform: scale(1.025);
+  }
+}

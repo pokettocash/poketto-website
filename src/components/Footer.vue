@@ -7,13 +7,13 @@
         <div class="mb-6 md:mb-0 sm:w-1/4 h-auto">
           <a
             v-scroll-reveal="{ delay: 1000, distance: '5%' }"
-            class="cursor-pointer inline-block w-8 grow"
+            class="cursor-pointer inline-block w-8"
             href="/"
             rel="noopener noreferrer"
           >
             <img
               alt="Poketto Icon"
-              class="w-8"
+              class="w-8 grow"
               src="@/assets/svg/poketto-icon.svg"
               >
           </a>
