@@ -1,4 +1,4 @@
-# Poketto Website
+# Poketto Website [![Netlify Status](https://api.netlify.com/api/v1/badges/23d91f78-31ed-476c-ae8d-87ab99f88adf/deploy-status)](https://app.netlify.com/sites/thirsty-turing-faabe9/deploys)
 
 Landing page for [Poketto](https://poketto.cash)
 
