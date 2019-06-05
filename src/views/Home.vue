@@ -342,7 +342,7 @@
     </div>
     <div id="community" class="flex">
       <div
-        class="container mx-auto flex flex-col px-6 md:px-0 items-center mt-24 mb-24 md:mb-32"
+        class="container mx-auto flex flex-col px-6 md:px-0 items-center mt-24 mb-24"
       >
         <div class="w-5/6 md:w-3/4 background--illustration">
           <img src="@/assets/img/illustrations/done_sunday.jpg" alt="" />

@@ -22,7 +22,7 @@
         <div class="text-sm lg:flex-grow">
           <a
             href="#wallet"
-            v-smooth-scroll="{ duration: 1000 }"
+            v-smooth-scroll="{ duration: 1000, offset: 50 }"
             class="block mt-4 lg:inline-block lg:mt-0 cursor-pointer gt-walsheim-regular text-black hover-link mr-5"
           >
             Wallet
@@ -43,7 +43,7 @@
           </a>
           <a
             href="#community"
-            v-smooth-scroll="{ duration: 1000, offset: 50 }"
+            v-smooth-scroll="{ duration: 1000 }"
             class="block mt-4 lg:inline-block lg:mt-0 cursor-pointer gt-walsheim-regular text-black hover-link"
           >
             Community
