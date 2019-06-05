@@ -6,6 +6,7 @@
       >
         <div class="sm:w-1/4 h-auto">
           <a
+            v-scroll-reveal="{ delay: 1000, distance: '5%' }"
             class="cursor-pointer inline-block w-8 grow"
             href="/"
             rel="noopener noreferrer"
@@ -90,7 +91,7 @@
         </div>
         <div>
           <transition appear name="fade">
-            <div class="mt-12 md:mt-4">
+            <div class="mt-12 md:mt-4 lg:mt-0">
               <a
                 class="opacity-100 inline-block w-8 mr-4 grow"
                 href="https://github.com/pokettocash"
