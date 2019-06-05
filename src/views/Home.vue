@@ -67,9 +67,7 @@
       </div>
     </div>
     <div class="flex">
-      <div
-        class="container mx-auto flex flex-col items-center mt-24 mb-24"
-      >
+      <div class="container mx-auto flex flex-col items-center mt-24 mb-24">
         <div class="w-5/6 md:w-3/4">
           <img src="@/assets/img/illustrations/everyone.jpg" />
         </div>
@@ -146,9 +144,7 @@
       <div
         class="container mx-auto flex flex-col items-center mt-24 mb-24 md:mb-32"
       >
-        <h1
-          class="text-2xl md:text-4xl gt-walsheim-medium leading-tight"
-        >
+        <h1 class="text-2xl md:text-4xl gt-walsheim-medium leading-tight">
           Why use this wallet?
         </h1>
         <p
@@ -272,17 +268,26 @@
         <div
           class="md:mt-16 inline-flex flex-col-reverse lg:flex-row px-6 md:px-0 flex-no-wrap items-center justify-center"
         >
-          <div class="md:w-1/2 flex flex-col md:max-w-lg md:items-start md:pl-6 md:pr-8">
+          <div
+            class="md:w-1/2 flex flex-col md:max-w-lg md:items-start md:pl-6 md:pr-8"
+          >
             <h1
               class="mt-16 text-center md:text-left lg:mt-0 text-2xl md:text-4xl gt-walsheim-medium leading-tight"
             >
               Poketto uses xDai
             </h1>
-            <h2 class="mt-4 text-center md:text-left text-xl md:text-2xl gt-walsheim-regular leading-tight px-6 md:px-0">The xDai Chain is an Ethereum compatible sidechain with Dai, acting as the native currency of the network</h2>
+            <h2
+              class="mt-4 text-center md:text-left text-xl md:text-2xl gt-walsheim-regular leading-tight px-6 md:px-0"
+            >
+              The xDai Chain is an Ethereum compatible sidechain with Dai,
+              acting as the native currency of the network
+            </h2>
             <div
               class="mt-4 text-center md:text-left text-base md:text-base lg:text-lg open-sans-regular leading-normal"
             >
-              Combining POA Network’s interoperability knowledge and technology with MakerDAO’s Dai, the permissionless, crypto-collateralized USD-stable coin.
+              Combining POA Network’s interoperability knowledge and technology
+              with MakerDAO’s Dai, the permissionless, crypto-collateralized
+              USD-stable coin.
             </div>
             <div class="mt-2 inline-flex flex-row">
               <a
@@ -315,7 +320,7 @@
               We can help you onboard!
             </h2>
             <a
-              class="mt-8 hidden lg:block grow--button"
+              class="mt-10 hidden lg:block grow--button"
               href="mailto:onboard@poketto.cash?Subject=I%27m%20looking%20for%20a%201%3A1%20Poketto%20onboarding%20session&Body=%5BPlease%20let%20us%20know%20your%20availability%5D"
               target="_blank"
               rel="noopener noreferrer"
