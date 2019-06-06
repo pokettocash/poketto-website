@@ -2,13 +2,11 @@
 
 Landing page for [Poketto](https://poketto.cash)
 
+Download now on the [App Store](https://itunes.apple.com/us/app/poketto-cash/id1460141974)
+
 ## Deploy
 
-Hosted on Netlify (building automatically from master repository).
-
-## Development
-
-To run the site locally:
+Hosted on [Netlify](https://netlify.com) (building automatically from master repository).
 
 ## Project setup
 ```
