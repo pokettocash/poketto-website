@@ -241,7 +241,7 @@
               <h2
                 class="mt-8 md:mt-0 text-xl md:text-2xl md:px-4 header-color gt-walsheim-medium"
               >
-                Completly open source
+                Completely open source
               </h2>
               <p class="mt-2 text-base md:text-lg md:px-4 open-sans-regular">
                 Our wallet code is avaiable for anyone to check or contribute to
