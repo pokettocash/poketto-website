@@ -122,7 +122,7 @@
               </a>
               <a
                 class="opacity-100 inline-block w-8 mr-6 md:mr-4 grow"
-                href="https://discord.gg/kMTUpME"
+                href="https://chat.donesunday.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Discord"
