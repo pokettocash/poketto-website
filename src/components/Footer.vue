@@ -83,7 +83,7 @@
             <li class="mb-4 md:mb-2">
               <a
                 class="link open-sans-regular text-grey-darker hover-link"
-                href="https://github.com/pokettocash/poketto-ios/projects/1"
+                href="https://www.notion.so/bd48985b027e4619b678b0b8ece279fb?v=89f353f020614cc7a87ea015e859daee"
                 target="_blank"
                 rel="noopener noreferrer"
                 >Roadmap</a
