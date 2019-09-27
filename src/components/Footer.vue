@@ -34,17 +34,17 @@
                 href="https://itunes.apple.com/us/app/poketto-cash/id1460141974"
                 target="_blank"
                 rel="noopener noreferrer"
-                >Download the app</a
+                >Download the iOS app</a
               >
             </li>
             <li class="mb-4 md:mb-2">
               <a
                 class="link open-sans-regular text-grey-darker hover-link"
-                href="#wallet"
-                v-smooth-scroll="{ duration: 1000, offset: 85 }"
+                href="https://play.google.com/store/apps/details?id=com.poketto.poketto"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Download the Android app</a
               >
-                Discover our wallet
-              </a>
             </li>
             <li class="mb-4 md:mb-2">
               <a

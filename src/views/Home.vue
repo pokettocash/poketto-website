@@ -36,13 +36,17 @@
                       src="@/assets/svg/app-store.svg"
                     />
                   </a>
-                  <button class="mt-8 ml-8" @click="$modal.show('donation')">
+                  <a
+                    class="mt-8 ml-8 grow--button"
+                    href="https://play.google.com/store/apps/details?id=com.poketto.poketto"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img
-                      class="hidden md:block w-40 cursor-pointer"
-                      src="@/assets/svg/donation.svg"
+                      class="w-40 cursor-pointer"
+                      src="@/assets/svg/play-store.svg"
                     />
-                    <DonationModal />
-                  </button>
+                  </a>
                 </div>
               </transition>
             </div>
@@ -375,6 +379,13 @@
           >
           and be part of the discussion too!
         </p>
+        <button class="mt-8 ml-8" @click="$modal.show('donation')">
+          <img
+            class="hidden md:block w-40 cursor-pointer"
+            src="@/assets/svg/donation.svg"
+          />
+          <DonationModal />
+        </button>
       </div>
     </div>
     <Footer />
