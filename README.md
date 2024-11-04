@@ -1,5 +1,7 @@
 # Poketto Website [![Netlify Status](https://api.netlify.com/api/v1/badges/23d91f78-31ed-476c-ae8d-87ab99f88adf/deploy-status)](https://app.netlify.com/sites/thirsty-turing-faabe9/deploys)
 
+### [This app has been discontinued!]
+
 Landing page for [Poketto](https://poketto.cash)
 
 Download now on the [App Store](https://itunes.apple.com/us/app/poketto-cash/id1460141974)
